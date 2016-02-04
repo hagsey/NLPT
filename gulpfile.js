@@ -1,4 +1,5 @@
 var elixir = require('laravel-elixir');
+require('laravel-elixir-vueify');
 
 /*
  |--------------------------------------------------------------------------
@@ -12,5 +13,21 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.sass('app.scss');
+
+	var nodePath = '../../node_modules';
+
+    mix.less('nlpt.less', 'resources/assets/css')
+    .browserify('vue.js', 'resources/assets/js/compiledVue.js')
+    .scripts([
+		nodePath + '/jquery/dist/jquery.js',
+		nodePath + '/bootstrap-less/js/bootstrap.js',
+		'js/nlpt.js', 
+	    'js/compiledVue.js',
+	], 'public/js/nlpt.js', 'resources/assets')
+	.styles([
+	    'css/nlpt.css'
+	], 'public/css/nlpt.css', 'resources/assets');
+
+	mix.version(['css/nlpt.css', 'js/nlpt.js']);
+
 });
