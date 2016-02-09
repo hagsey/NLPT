@@ -6458,6 +6458,39 @@ button.close {
     display: none !important;
   }
 }
+html,
+body,
+#page-wrapper {
+  height: 100% !important;
+  width: 100% !important;
+  margin: 0px;
+  padding: 0px;
+}
+.sections {
+  height: 200%;
+  width: 100%;
+}
+.first-section {
+  height: 50% !important;
+  width: 100% !important;
+}
+.nav-bar {
+  height: 15% !important;
+  background-color: white;
+}
+.big-photo {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  background-image: url("http://nlpt.app/images/background.jpg");
+  height: 85% !important;
+}
+.second-section {
+  height: 50% !important;
+  background-color: green;
+  width: 100% !important;
+}
 
 /*# sourceMappingURL=nlpt.css.map */
 

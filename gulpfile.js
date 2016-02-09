@@ -30,4 +30,6 @@ elixir(function(mix) {
 
 	mix.version(['css/nlpt.css', 'js/nlpt.js']);
 
+	mix.copy('resources/images', 'public/images');
+
 });
