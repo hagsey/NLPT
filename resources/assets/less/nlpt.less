@@ -1,6 +1,10 @@
 @import '../../../node_modules/bootstrap-less/bootstrap/bootstrap';
 
 //********************
+//Less Variables
+//********************
+@nlpt-gold: #e6b800;
+//********************
 //Home Page
 //********************
 
@@ -22,6 +26,41 @@ html,body,#page-wrapper{
 	width: 100%;
 }
 
+@media(min-width:768px) {
+    .navbar {
+        padding: 20px 0;
+        width: 100%;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+
+    .top-nav-collapse .logo {
+    	height: 50px;
+    	float: left;
+    	margin: 0px;
+    	-webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+}
+@media(max-width:767px) {
+
+	.top-nav-collapse .logo {
+    	height: 50px;
+    	float: left;
+    	margin: 0px;
+    	-webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+}
+
 //**************
 // Section 1
 //**************
@@ -29,9 +68,8 @@ html,body,#page-wrapper{
 	height: 50% !important;
 	width: 100% !important;
 }
-.nav-bar {
-	height: 15% !important;
-	background-color: white;
+.navbar {
+	border-top: 3px solid @nlpt-gold;
 }
 .big-photo {
 	background-position: center center;
@@ -39,16 +77,93 @@ html,body,#page-wrapper{
 	background-size: cover;
 	background-color: transparent;
 	background-image: url("http://nlpt.app/images/background.jpg");
-	height: 85% !important;
+	height: 100% !important;
+	width: 100% !important;
 }
+.menu-items {
+	float: right;
+}
+.logo {
+	height: 100px;
+	float: left;
+	margin: -25px 0px -20px 0px;
+	-webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 
+}
 //**************
 // Section 2
 //**************
 .second-section {
-	height: 50% !important;
-	background-color: green;
+	min-height: 50% !important;
+	background-color: white;
 	width: 100% !important;
+}
+.mission-statement {
+	padding-top: 20px;
+}
+
+.mission-statement h1 {
+	text-align: center;
+}
+
+.mission-statement blockquote {
+	border-left: 5px solid @nlpt-gold;
+}
+
+.services {
+	padding-top: 8%;
+}
+.service-block {
+	padding: 0px 35px;
+}
+.service-block h3 {
+	text-align: center;
+}
+.service-block a {
+	color: @nlpt-gold;
+}
+
+//***************
+// Section 3
+//***************
+.third-section {
+	min-height: 50% !important;
+	background-color: #404040;
+	color: white;
+}
+.third-section h1, h2 {
+	color: @nlpt-gold;
+	text-align: center;
+	padding-bottom: 5%;
+}
+.third-section .container-fluid {
+	padding-top: 5%;
+}
+
+.third-section .blog-post {
+}
+
+.third-section .video {
+}
+
+//***************
+// Footer
+//***************
+.footer {
+	min-height: 50% !important;
+	background-color: black;
+	width: 100% !important;
+}
+.footer .schedule-day {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.footer .schedule-day .panel-heading {
+	background-color: @nlpt-gold;
+	border-color: @nlpt-gold;
 }
 
 

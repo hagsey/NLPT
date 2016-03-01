@@ -6470,13 +6470,36 @@ body,
   height: 200%;
   width: 100%;
 }
+@media (min-width: 768px) {
+  .navbar {
+    padding: 20px 0;
+    width: 100%;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .top-nav-collapse {
+    padding: 0;
+  }
+  .top-nav-collapse .logo {
+    height: 50px;
+    float: left;
+    margin: 0px;
+    transition: all 0.5s ease-in-out;
+  }
+}
+@media (max-width: 767px) {
+  .top-nav-collapse .logo {
+    height: 50px;
+    float: left;
+    margin: 0px;
+    transition: all 0.5s ease-in-out;
+  }
+}
 .first-section {
   height: 50% !important;
   width: 100% !important;
 }
-.nav-bar {
-  height: 15% !important;
-  background-color: white;
+.navbar {
+  border-top: 3px solid #e6b800;
 }
 .big-photo {
   background-position: center center;
@@ -6484,14 +6507,119 @@ body,
   background-size: cover;
   background-color: transparent;
   background-image: url("http://nlpt.app/images/background.jpg");
-  height: 85% !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+.menu-items {
+  float: right;
+}
+.logo {
+  height: 100px;
+  float: left;
+  margin: -25px 0px -20px 0px;
+  transition: all 0.5s ease-in-out;
 }
 .second-section {
-  height: 50% !important;
-  background-color: green;
+  min-height: 50% !important;
+  background-color: white;
   width: 100% !important;
+}
+.mission-statement {
+  padding-top: 20px;
+}
+.mission-statement h1 {
+  text-align: center;
+}
+.mission-statement blockquote {
+  border-left: 5px solid #e6b800;
+}
+.services {
+  padding-top: 8%;
+}
+.service-block {
+  padding: 0px 35px;
+}
+.service-block h3 {
+  text-align: center;
+}
+.service-block a {
+  color: #e6b800;
+}
+.third-section {
+  min-height: 50% !important;
+  background-color: #404040;
+  color: white;
+}
+.third-section h1,
+h2 {
+  color: #e6b800;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.third-section .container-fluid {
+  padding-top: 5%;
+}
+.footer {
+  min-height: 50% !important;
+  background-color: black;
+  width: 100% !important;
+}
+.footer .schedule-day {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.footer .schedule-day .panel-heading {
+  background-color: #e6b800;
+  border-color: #e6b800;
 }
 
 /*# sourceMappingURL=nlpt.css.map */
 
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+// body {
+//     width: 100%;
+//     height: 100%;
+// }
+
+// html {
+//     width: 100%;
+//     height: 100%;
+// }
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+// .intro-section {
+//     height: 100%;
+//     padding-top: 150px;
+//     text-align: center;
+//     background: #fff;
+// }
+
+// .about-section {
+//     height: 100%;
+//     padding-top: 150px;
+//     text-align: center;
+//     background: #eee;
+// }
+
+// .services-section {
+//     height: 100%;
+//     padding-top: 150px;
+//     text-align: center;
+//     background: #fff;
+// }
+
+// .contact-section {
+//     height: 100%;
+//     padding-top: 150px;
+//     text-align: center;
+//     background: #eee;
+// }
 /*# sourceMappingURL=nlpt.css.map */

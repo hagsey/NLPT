@@ -21,11 +21,14 @@ elixir(function(mix) {
     .scripts([
 		nodePath + '/jquery/dist/jquery.js',
 		nodePath + '/bootstrap-less/js/bootstrap.js',
+		nodePath + '/jquery.easing/jquery.easing.js',
 		'js/nlpt.js', 
 	    'js/compiledVue.js',
+	    'js/scrolling-nav.js',
 	], 'public/js/nlpt.js', 'resources/assets')
 	.styles([
-	    'css/nlpt.css'
+	    'css/nlpt.css',
+	    'css/scrolling-nav.css'
 	], 'public/css/nlpt.css', 'resources/assets');
 
 	mix.version(['css/nlpt.css', 'js/nlpt.js']);
