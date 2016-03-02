@@ -6465,6 +6465,7 @@ body,
   width: 100% !important;
   margin: 0px;
   padding: 0px;
+  font-family: 'Open Sans', sans-serif;
 }
 .sections {
   height: 200%;
@@ -6474,6 +6475,8 @@ body,
   .navbar {
     padding: 20px 0;
     width: 100%;
+    letter-spacing: 1px;
+    font-variant: small-caps;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
   .top-nav-collapse {
@@ -6487,7 +6490,7 @@ body,
   }
 }
 @media (max-width: 767px) {
-  .top-nav-collapse .logo {
+  .navbar-fixed-top .logo {
     height: 50px;
     float: left;
     margin: 0px;
@@ -6523,9 +6526,11 @@ body,
   min-height: 50% !important;
   background-color: white;
   width: 100% !important;
+  letter-spacing: 1px;
 }
 .mission-statement {
   padding-top: 20px;
+  font-variant: small-caps;
 }
 .mission-statement h1 {
   text-align: center;
@@ -6541,35 +6546,59 @@ body,
 }
 .service-block h3 {
   text-align: center;
+  font-variant: small-caps;
 }
 .service-block a {
   color: #e6b800;
 }
 .third-section {
   min-height: 50% !important;
-  background-color: #404040;
-  color: white;
+  background-color: #f9f9f9;
+  letter-spacing: 1px;
 }
-.third-section h1,
-h2 {
-  color: #e6b800;
+.third-section h1 {
+  padding-top: 20px;
   text-align: center;
-  padding-bottom: 5%;
+  letter-spacing: 1px;
+  font-variant: small-caps;
 }
-.third-section .container-fluid {
-  padding-top: 5%;
+@media (min-width: 992px) {
+  .footer .schedule-btn-group {
+    margin-top: 10%;
+  }
+}
+@media (max-width: 991px) {
+  .footer .schedule-btn-group {
+    margin-top: 1%;
+  }
 }
 .footer {
-  min-height: 50% !important;
-  background-color: black;
+  min-height: 15% !important;
+  background-color: #252528;
   width: 100% !important;
+  color: #bfbfc0;
 }
-.footer .schedule-day {
-  padding-left: 0px;
-  padding-right: 0px;
+.footer .schedule th {
+  text-align: center;
 }
-.footer .schedule-day .panel-heading {
-  background-color: #e6b800;
+.footer .schedule tbody {
+  font-size: 10px;
+}
+.footer .day-header {
+  font-size: 14px;
+}
+.footer .table .table {
+  background-color: transparent;
+}
+.footer .btn {
+  background-color: #bfbfc0;
+  color: #252528;
+  border-color: #252528;
+  margin: 5px;
+}
+.footer .clicked {
+  background-color: #404040;
+  color: #e6b800;
   border-color: #e6b800;
 }
 
