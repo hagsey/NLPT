@@ -8,7 +8,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button> 
-			<a class="navbar-brand page-scroll" href="#">NLPT</a>
+			<a class="navbar-brand page-scroll" href="/">NLPT</a>
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,16 +19,16 @@
 					<a href="#"></a>
 				</li>
 				<li>
-					<a href="#">Programs</a>
+					<a href="/programs">Programs</a>
 				</li>
 				<li>
 					<a href="#">Blog</a>
 				</li>
 				<li>
-					<a href="#">About</a>
+					<a href="/about">About</a>
 				</li>
 				<li>
-					<a href="#">Contact</a>
+					<a href="/contact">Contact</a>
 				</li>
 			</ul>
 		</div>

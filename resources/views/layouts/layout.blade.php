@@ -11,6 +11,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link href="{{ asset('/css/nlpt.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+        @yield('script')
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     </head>
     <body id="nlpt">

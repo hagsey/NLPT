@@ -1,0 +1,85 @@
+TODO:
+
+nlptathlete
+
+about US
+	-Stories
+Blogs
+	-list of all coach authors, with thier most up to date articles
+
+
+//*****************************************
+//*ACTIONS
+//*****************************************
+contact us needs to include stratford.
+different addresses and phone numbers.
+
+call to action button 
+clickable button for nlpt logo
+
+
+Meeting Notes:
+
+Overall thoughts
+- Alot of information all of it is good, so need to decide if this is ok, or if you want to cut down on the amount.
+	-if cut down on the amount will I believe make the site look more clean, though will need a little redesign.
+
+- BLOGS
+	-how do we want to do this?
+	-i like the idea of having every coach be an author, so on the blog page there will be a "most recent" or click on author to see thier posts.
+	-API?
+	-this also effects the recent blog posts on the home page, and maybe even Events.
+- Events
+	-Is this a blog? or something just updated behind the scenes?
+		-quick message? or verbose?
+
+-NLPTathlete
+	-site gives a blog post by Zach, i'm assuming thats not what needs to go there.
+
+-Anything that it's missing?
+	-videos?
+	-contact us form to email?
+	-extra pages?
+
+**************
+Individual Page notes
+
+HomePage
+- Polish color on whats new page
+- Is what's new page what the want.
+
+NLPTfit
+-alot of text/ content
+-once content is settled upon then better themed pictures to content goes up.
+-is Program Details the best title for that bottom section.
+-bolded the words that were capitalized. but some seem unnessesary
+
+NLPTteam
+-alot of text / content
+-last section be able to maybe make a table of prices and what the recieve?
+	-only one option shows price
+	-flex option is sort of unclear
+
+NLPTyouth
+-first section needs more text, with picture not centered.
+	-put how to get started there temporarily
+
+
+NLPTrehab
+-no pictures (not even dummy ones)
+
+
+About
+- should have a "history" little blurb for this page.
+	-"i always loved working out etc....etc...."
+- agian need photos
+	-maybe black and white, or old hopf photo?
+
+Meet the Staff
+- Once JS is up and running will polish to have photo fade and name appear
+	-or can include names over the pictures on second thought.
+
+-everyone is Hopfs page as he when the JS is up will make it easy to switch between and other staff can be added.
+
+Contact
+- just need wanted ways of communicating... fax? LinkdIn? etc...

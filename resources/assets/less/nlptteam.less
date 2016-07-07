@@ -1,0 +1,149 @@
+//********************
+//NLPTteam Page
+//********************
+
+//I'll be dividing this Less into the pages, and sections of pages as appropriate.
+
+//********************
+//Less Variables
+//********************
+@nlpt-gold: #e6b800;
+@nlpt-nav-grey: #f8f8f8;
+@off-white-background: rgb(249, 249, 249);
+
+
+.nlptteam-page  {
+	height: 200%;
+	width: 100%;
+	letter-spacing: 1px;
+    blockquote {
+		border-left: 5px solid @nlpt-gold;
+	}
+
+	//**************
+	// Section 1
+	//**************
+	.first-section {
+		min-height: 50% !important;
+		width: 100% !important;
+		padding-top: 100px;
+		
+
+		.first-content {
+			margin-top: 6%;
+		}
+		.nlptteam-text {
+			h1 {
+				text-align: center;
+				font-variant: small-caps;
+			}
+			.nlptteam-blurb {
+				padding: 5% 5% 0% 5%;
+				
+				
+			}
+		}
+
+		.content-title {
+			text-align: center;
+			color: @nlpt-gold;
+		}
+
+		.nlptteam-picture {
+			padding: 5% 0%;
+			width: 100% !important;
+		}
+	}
+
+	//**************
+	// Section 2
+	//**************
+	.second-section {
+		min-height: 50% !important;
+		width: 100% !important;
+		background-color: @off-white-background;
+
+		.nlptteam-picture {
+			padding: 5% 0%;
+			width: 100% !important;
+		}
+		
+		
+		.title-section {
+			
+			.pillars-title {
+				text-align: center;
+				padding-top: 20px;
+				font-variant: small-caps;
+			}
+			p {
+				padding: 0% 20%;
+			}
+		}
+		.pillars {
+			padding-top: 2%;
+
+			.pillar-text {
+				padding: 5% 0% 0% 0%;
+			}
+
+			.pillar {
+				padding: 5%;
+			}
+
+			.pillar1 {
+				border-bottom: 1px solid @nlpt-gold;
+			}
+
+			@media(min-width:992px) {
+				
+				.pillar4 {
+					border-top: 1px solid @nlpt-gold;
+				}
+			}
+			
+
+			@media(max-width:991px) {
+				.pillar2 {
+					border-bottom: 1px solid @nlpt-gold;
+				}
+				.pillar3 {
+					border-bottom: 1px solid @nlpt-gold;
+				}
+			}
+		}
+
+	}
+
+	//**************
+	// Section 3
+	//**************
+	.third-section {
+		min-height: 50% !important;
+		width: 100% !important;
+		.title-section {
+			
+			.title {
+				text-align: center;
+				padding-top: 20px;
+				font-variant: small-caps;
+			}
+			p {
+				padding: 0% 20%;
+			}
+		}
+
+		.option {
+			padding-top: 5%;
+			p {
+				padding-top: 2%;
+			}
+		}
+		.nlptteam-picture {
+			padding: 5% 0%;
+			width: 100% !important;
+		}
+	}
+
+	
+}

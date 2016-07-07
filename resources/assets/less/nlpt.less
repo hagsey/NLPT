@@ -1,14 +1,21 @@
 @import '../../../node_modules/bootstrap-less/bootstrap/bootstrap';
+@import './home_page.less';
+@import './program_sidebar.less';
+@import './program_page.less';
+@import './nlptfit.less';
+@import './nlptteam.less';
+@import './nlptyouth.less';
+@import './nlptrehab.less';
+@import './about_sidebar.less';
+@import './about.less';
+@import './coaches.less';
+@import './contact.less';
+
 
 //********************
 //Less Variables
 //********************
 @nlpt-gold: #e6b800;
-//********************
-//Home Page
-//********************
-
-//I'll be dividing this Less into the pages, and sections of pages as appropriate.
 
 
 //***************
@@ -22,10 +29,10 @@ html,body,#page-wrapper{
 	font-family: 'Open Sans', sans-serif;
 }
 
-.sections {
-	height: 200%;
-	width: 100%;
-}
+// .sections {
+// 	height: 200%;
+// 	width: 100%;
+// }
 
 @media(min-width:768px) {
     .navbar {
@@ -64,25 +71,13 @@ html,body,#page-wrapper{
     }
 }
 
-//**************
-// Section 1
-//**************
-.first-section {
-	height: 50% !important;
-	width: 100% !important;
-}
+//***************
+//NavBar
+//***************
 .navbar {
-	border-top: 3px solid @nlpt-gold;
+		border-top: 3px solid @nlpt-gold;
 }
-.big-photo {
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: transparent;
-	background-image: url("http://nlpt.app/images/background.jpg");
-	height: 100% !important;
-	width: 100% !important;
-}
+
 .menu-items {
 	float: right;
 }
@@ -95,57 +90,6 @@ html,body,#page-wrapper{
     transition: all .5s ease-in-out;
 
 }
-//**************
-// Section 2
-//**************
-.second-section {
-	min-height: 50% !important;
-	background-color: white;
-	width: 100% !important;
-	letter-spacing: 1px;
-}
-.mission-statement {
-	padding-top: 20px;
-	font-variant: small-caps;
-
-}
-
-.mission-statement h1 {
-	text-align: center;
-}
-
-.mission-statement blockquote {
-	border-left: 5px solid @nlpt-gold;
-}
-
-.services {
-	padding-top: 8%;
-}
-.service-block {
-	padding: 0px 35px;
-}
-.service-block h3 {
-	text-align: center;
-	font-variant: small-caps;
-}
-.service-block a {
-	color: @nlpt-gold;
-}
-
-//***************
-// Section 3
-//***************
-.third-section {
-	min-height: 50% !important;
-	background-color: rgb(249, 249, 249);
-	letter-spacing: 1px;
-}
-.third-section h1 {
-	padding-top: 20px;
-	text-align: center;
-	letter-spacing: 1px;
-	font-variant: small-caps;
-}
 
 //***************
 // Footer
@@ -154,15 +98,26 @@ html,body,#page-wrapper{
 @footer-darkgray: rgb(37,37,40);
 
 @media(min-width:992px) {
-	.footer .schedule-btn-group {
+	.footer .schedule-btn-group-xs {
 		margin-top: 10%;
 	}
 }
 
 @media(max-width:991px) {
-	.footer .schedule-btn-group {
+	.footer .schedule-btn-group-xs {
 		margin-top: 1%;
 	}
+}
+
+.connect {
+	text-align: center;
+	h3 {
+		border-bottom: 1px solid @nlpt-gold;
+	}
+}
+.footer-icons {
+	height: 50px;
+	width: 50px;
 }
 .footer {
 	min-height: 15% !important;
@@ -187,7 +142,7 @@ html,body,#page-wrapper{
 	background-color: @footer-lightgray;
 	color: @footer-darkgray;
 	border-color: @footer-darkgray;
-	margin: 5px;
+	margin: 1px 5px;
 }
 .footer .clicked {
 	background-color: #404040;

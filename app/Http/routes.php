@@ -15,6 +15,52 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/programs', function () {
+	return view('programs');
+});
+
+Route::get('/programs/nlptfit', function () {
+	return view('nlptfit');
+});
+
+Route::get('/programs/nlptteam', function () {
+	return view('nlptteam');
+});
+
+Route::get('/programs/nlptyouth', function () {
+	return view('nlptyouth');
+});
+
+Route::get('/programs/nlptrehab', function () {
+	return view('nlptrehab');
+});
+
+Route::get('/blogs', function () {
+	return view('blogs');
+});
+
+Route::get('/contact', function () {
+	return view('contact');
+});
+
+Route::get('/about', function () {
+	return view('about');
+});
+
+Route::get('/about/coaches', function () {
+	return view('coaches');
+});
+
+Route::get('/about/coaches/{id}', function () {
+	return view('hopf');
+});
+
+Route::get('/about/stories', function () {
+	return view('stories');
+});
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
