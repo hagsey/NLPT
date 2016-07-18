@@ -9,10 +9,10 @@
         <title>NLPT</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <meta id="token" name="token" value="{{csrf_token()}}">
         <link href="{{ asset('/css/nlpt.css') }}" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
-        @yield('script')
+        
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     </head>
     <body id="nlpt">
@@ -25,9 +25,9 @@
         	@yield('content')
         </div>
         
+        
         <script src="{{ elixir('js/nlpt.js') }}"></script>
-    	
-
+        @yield('script')
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

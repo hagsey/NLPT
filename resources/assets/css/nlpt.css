@@ -7125,7 +7125,6 @@ button.close {
 .contact_page .first-section .contact-text h1 {
   text-align: center;
   font-variant: small-caps;
-  padding-bottom: 5%;
 }
 .contact_page .first-section .contact-text .contact-blurb {
   padding-bottom: 5%;
@@ -7146,6 +7145,9 @@ button.close {
 .contact_page .first-section .contact-picture {
   padding-bottom: 25%;
   width: 100% !important;
+}
+.contact_page .first-section .map-buttons {
+  margin-left: 33.3333%;
 }
 html,
 body,
