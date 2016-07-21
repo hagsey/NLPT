@@ -19,6 +19,10 @@ Route::get('/programs', function () {
 	return view('programs');
 });
 
+Route::get('/programs/nlptathlete', function () {
+	return view('nlptathlete');
+});
+
 Route::get('/programs/nlptfit', function () {
 	return view('nlptfit');
 });
@@ -58,6 +62,9 @@ Route::get('/about/coaches/{id}', function () {
 Route::get('/about/stories', function () {
 	return view('stories');
 });
+
+
+Route::post('/email', 'Emailer@sendEmail');
 
 
 

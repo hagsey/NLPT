@@ -1,0 +1,27 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+use App\Http\Requests;
+use Illuminate\Http\Response;
+use App\Http\Requests\EmailRequest;
+use App\Http\Controllers\Controller;
+use Mail;
+
+
+class Emailer extends Controller
+{
+    public function sendEmail(EmailRequest $request)
+    {
+    	$system = "NLPT Website";
+    	Mail::send('emails.Inquiry', ['data' => $request], function ($m) use ($system) {
+            $m->from('adgekrebs@gmail.com', $system);
+
+            $m->to('adgekrebs@gmail.com', 'Inquiry')->subject('New NLPT Inquiry');
+        }); 
+
+        return (new Response("Success!",201));
+    }
+}

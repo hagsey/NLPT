@@ -6,7 +6,7 @@
 		<ul class="sidebar-nav">
 			
 			<li class="sidebar-option">
-				<a href="#">NLPTathlete</a>
+				<a href="/programs/nlptathlete">NLPTathlete</a>
 			</li>
 			<li class="sidebar-option">
 				<a href="/programs/nlptfit">NLPTfit</a>

@@ -24,7 +24,7 @@
 					<a href="/programs">Programs</a>
 				</li>
 				<li>
-					<a href="#">Blog</a>
+					<a href="/blogs">Blog</a>
 				</li>
 				<li>
 					<a href="/about">About</a>

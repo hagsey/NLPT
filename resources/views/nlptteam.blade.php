@@ -19,14 +19,13 @@
 					
 				</div>
 				<div class="row">
+					
+					<div class="col-md-4 col-md-offset-4">
+						<button type="button" class="btn btn-primary action-btn" v-on:click="showAction=true">Start the Process!</button>
+						<Actioncall :show.sync="showAction" title="NLPTteam"></Actioncall>
+					</div>
 					<div class="col-md-4">
 						<img class="nlptteam-picture" src="http://nlpt.app/images/train.jpg">
-					</div>
-					<div class="col-md-8 nlptteam-text">
-						<div class=" nlptteam-blurb">
-							<p>Our system revoves around teaching athletes the fundamentals of training and then instilling those fundamentals through repetition and relentless attention to detail. The atmosphere at NLPT is highly competitive and energetic, making for an environment that is not only fun, but teaches athletes the true meaning of hard work.</p>
-							<p>Our coaching staff’s extensive academic background in kinesiology, motor learning and muscle physiology combined with their playing and coaching experience allow us to create an evidenced-based athletic development program that gives the athletes exactly what they need at each stage in their progression.</p>
-						</div>
 					</div>
 					
 				</div>

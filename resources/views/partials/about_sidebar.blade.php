@@ -11,9 +11,6 @@
 			<li class="sidebar-option">
 				<a href="/about/coaches">Meet the Coaches</a>
 			</li>
-			<li class="sidebar-option">
-				<a href="/about/stories">Success Stories</a>
-			</li>
 
 		</ul>
 	</div>

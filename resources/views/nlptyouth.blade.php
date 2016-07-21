@@ -15,10 +15,9 @@
 							<p>Athletes between the ages of 10 to 13 fall into our Youth Development Program category. While these young athletes still get treated the same as any other athlete at NLPT, we approach their programming with a slightly different philosophy than our older clientele.</p>
 
 						</div>
-						<div class="col-md-5 started">
-							<h3>How to get started</h3>
-							<p>If you are interesting in getting your child signed up, please send us an email at nlperformancetraining@gmail.com</p>
-							<p> Please note that our youth training schedule may change every few months, please contact us to get the latest training times.</p>
+						<div class="col-md-4 col-md-offset-1 started">
+							<button type="button" class="btn btn-primary action-btn" v-on:click="showAction=true">How to get Started?</button>
+							<Actioncall :show.sync="showAction" title="NLPTyouth"></Actioncall>
 						</div>
 						<div class="col-md-7 ">
 							<img class="nlptyouth-picture" src="http://nlpt.app/images/youth.jpg">
@@ -53,7 +52,7 @@
 							<h2>Quality first</h2>
 							<div class="philosophy-text">
 								<p>
-								This is not the age to be overly focused on immediate outcomes. It’s all about quality. We emphasize proper mechanics and technique above anything else at this age. Later, when the athlete starts to physically mature, we begin to focus more on increasing the intensity of the load. Success in athletics, as in many things in life, comes by being consistent for a long period of time. These young athletes are at the beginning of their journey, and we believe it should start by learning to do the basics, and learning them well.
+								This is not the age to be overly focused on immediate outcomes. It’s all about quality. We emphasize proper mechanics and technique above anything else at this age. Success in athletics, as in many things in life, comes by being consistent for a long period of time. These young athletes are at the beginning of their journey, and we believe it should start by learning to do the basics, and learning them well.
 								</p>
 							</div>
 						</div>
@@ -67,16 +66,16 @@
 							</div>
 						</div>
 						<div class="col-md-4 philosophy-section">
-							<h2>Full mental engagement</h2>
+							<h2>Attentiveness</h2>
 							<div class="philosophy-text">
-								<p>Athletes that simply go through the motions are wasting their time. With our youth program, we emphasize drills and exercises that require their full attention in order to be performed correctly. Examples of this could be performing a lunge walk on a balance beam, rather than just on the floor; or asking them to jump to a specific target on the ground, rather than asking them to just jump as far as they can. The purpose behind this is to facilitate the motor learning process, which requires purposeful movement. Mindless reps are soon forgotten.
+								<p>Athletes that simply go through the motions are wasting their time. With our youth program, we emphasize drills and exercises that require their full attention in order to be performed correctly. The purpose behind this is to facilitate the motor learning process, which requires purposeful movement. Mindless reps are soon forgotten.
 								</p>
 							</div>
 						</div>
 						<div class="col-md-4 philosophy-section">
 							<h2>Accountability</h2>
 							<div class="philosophy-text">
-								<p>We’ve discovered that when put in the right environment, many young athletes are capable of a lot more responsibility than they’re given credit for. We don’t hold anyone’s hand and we don’t babysit. While we try to keep a friendly atmosphere in the gym, we make it very clear to all athletes that they’re here to train. ALL athletes are expected to show up on time, begin their warm-up on their own, stay on task, be respectful, and put all equipment away (although even the older guys have trouble with that last one some times).
+								<p>We’ve discovered that when put in the right environment, many young athletes are capable of a lot more responsibility than they’re given credit for. We don’t hold anyone’s hand and we don’t babysit. While we try to keep a friendly atmosphere in the gym, we make it very clear to all athletes that they’re here to train. ALL athletes are expected to show up on time, begin their warm-up on their own, stay on task, be respectful, and put all equipment away.
 								</p>
 							</div>
 						</div>

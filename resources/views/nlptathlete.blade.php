@@ -1,7 +1,7 @@
 @extends('layouts/layout')
 
 @section('content')
-	<div class ="nlptfit-page">
+	<div class ="nlptathlete-page">
 		@include('partials/header')
 		<div class="first-section">
 			<div class="container">
@@ -9,21 +9,21 @@
 					<div class="col-md-2">
 						@include('partials/program_sidebar')
 					</div>
-					<div class="col-md-6 nlptfit-text">
-						<h1>NLPTfit</h1>
-						<div class="nlptfit-blurb">
+					<div class="col-md-6 nlptathlete-text">
+						<h1>NLPTathlete</h1>
+						<div class="nlptathlete-blurb">
 							<p>While we are mainly known for training athletes. Our approach to training “former athletes” remains the same: assess each individual, prescribe a safe and effective training program, deliver top-notch coaching, and get <b>RESULTS</b>.</p>
 							<p>This approach to training is one of our core philosophies at NLPT, and it is the reason why we don’t offer bootcamps, classes, or prescribe general “workouts” for our clients. What’s right for one, might not be right–or safe–for another.</p>
 						</div>
 					</div>
 				
 					<div class="col-md-4">
-						<img class="nlptfit-picture" src="http://nlpt.app/images/weights2.jpg">
+						<img class="nlptathlete-picture" src="http://nlpt.app/images/weights2.jpg">
 					</div>
 				</div>
 				<div class="row">
 					<button type="button" class="btn btn-primary action-btn" v-on:click="showAction=true">Call to Action!</button>
-					<Actioncall :show.sync="showAction" title="NLPTfit"></Actioncall>
+					<Actioncall :show.sync="showAction" title="NLPTathlete"></Actioncall>
 				</div>
 			</div>
 		</div>
@@ -53,7 +53,7 @@
 							</div>
 						</div>
 						<div class="col-md-5">
-							<img class="nlptfit-picture" src="http://nlpt.app/images/weights2.jpg">
+							<img class="nlptathlete-picture" src="http://nlpt.app/images/weights2.jpg">
 						</div>
 					</div>
 				</div>
@@ -106,10 +106,10 @@
 				<div class="row">
 					<div class="col-md-4 quote">
 						<blockquote>"How many times a week can I train?"</blockquote>
-						<p>A membership to NLPTfit allows you to train an <b>UNLIMITED</b> number of times per week (at adult training times).</p><p> All members must follow a program designed by an NLPT coach for at least one session per week. A coach can also design a 2 or 3-day a week program (in 4-week increments) if requested.</p><p> After completing your program, you are free to use the gym any time you wish</p>
+						<p>A membership to NLPTathlete allows you to train an <b>UNLIMITED</b> number of times per week (at adult training times).</p><p> All members must follow a program designed by an NLPT coach for at least one session per week. A coach can also design a 2 or 3-day a week program (in 4-week increments) if requested.</p><p> After completing your program, you are free to use the gym any time you wish</p>
 					</div>
 					<div class="col-md-4">
-						<img class="nlptfit-picture" src="http://nlpt.app/images/weights2.jpg">
+						<img class="nlptathlete-picture" src="http://nlpt.app/images/weights2.jpg">
 					</div>
 					<div class="col-md-4 referral">
 						<h3>Referral Program</h3>
@@ -119,7 +119,7 @@
 				<div class="row">
 					<div class="col-md-4 col-md-offset-4 membership">
 						<h3>Membership</h3>
-						<p>Feel free to try us out for a few workouts at no cost.</p><p> If you would like to continue with NLPTfit, our monthly rate is $129 +HST.</p>
+						<p>Feel free to try us out for a few workouts at no cost.</p><p> If you would like to continue with NLPTathlete, our monthly rate is $129 +HST.</p>
 					</div>
 				</div>
 			</div>
