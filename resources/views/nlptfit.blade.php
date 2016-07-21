@@ -18,7 +18,7 @@
 					</div>
 				
 					<div class="col-md-4">
-						<img class="nlptfit-picture" src="http://nlpt.app/images/weights2.jpg">
+						<img class="nlptfit-picture" src="/images/weights2.jpg">
 					</div>
 				</div>
 				<div class="row">
@@ -53,7 +53,7 @@
 							</div>
 						</div>
 						<div class="col-md-5">
-							<img class="nlptfit-picture" src="http://nlpt.app/images/weights2.jpg">
+							<img class="nlptfit-picture" src="/images/weights2.jpg">
 						</div>
 					</div>
 				</div>
@@ -109,7 +109,7 @@
 						<p>A membership to NLPTfit allows you to train an <b>UNLIMITED</b> number of times per week (at adult training times).</p><p> All members must follow a program designed by an NLPT coach for at least one session per week. A coach can also design a 2 or 3-day a week program (in 4-week increments) if requested.</p><p> After completing your program, you are free to use the gym any time you wish</p>
 					</div>
 					<div class="col-md-4">
-						<img class="nlptfit-picture" src="http://nlpt.app/images/weights2.jpg">
+						<img class="nlptfit-picture" src="/images/weights2.jpg">
 					</div>
 					<div class="col-md-4 referral">
 						<h3>Referral Program</h3>

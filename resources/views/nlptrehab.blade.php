@@ -20,7 +20,7 @@
 							<p>The NLPTrehab staff is also available to non-NLPT clients and members of the general public.</p>
 						</div>
 						<div class="col-md-7 ">
-							<img class="nlptrehab-picture" src="http://nlpt.app/images/youth.jpg">
+							<img class="nlptrehab-picture" src="/images/youth.jpg">
 						</div>
 					</div>
 					
@@ -39,7 +39,7 @@
 
 				<div class=" row massuese">
 					<div class="col-md-3">
-						<img class="nlptrehab-picture" src="http://nlpt.app/images/hopf.jpg">
+						<img class="nlptrehab-picture" src="/images/hopf.jpg">
 					</div>
 					<div class="col-md-9 bio">
 						<h2>Michelle Miguel</h2>
@@ -89,7 +89,7 @@
 
 				<div class=" row doctor">
 					<div class="col-md-3">
-						<img class="nlptrehab-picture" src="http://nlpt.app/images/hopf.jpg">
+						<img class="nlptrehab-picture" src="/images/hopf.jpg">
 					</div>
 					<div class="col-md-9">
 						<h2>Dr. Alex Pessoa</h2>

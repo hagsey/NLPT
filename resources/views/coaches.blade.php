@@ -14,18 +14,18 @@
 					<div class="row staff photos">
 						<div class="col-md-3">
 
-							<a href="http://nlpt.app/about/coaches/1"><img class="coaches-picture" src="http://nlpt.app/images/hopf.jpg"></a>
-							<a href="http://nlpt.app/about/coaches/1"><img class="coaches-picture" src="http://nlpt.app/images/hopf.jpg"></a>
+							<a href="/about/coaches/1"><img class="coaches-picture" src="/images/hopf.jpg"></a>
+							<a href="/about/coaches/1"><img class="coaches-picture" src="/images/hopf.jpg"></a>
 						</div>
 						<div class="col-md-3">
-							<a href="http://nlpt.app/about/coaches/1"><img class="coaches-picture" src="http://nlpt.app/images/hopf.jpg"></a>
-							<a href="http://nlpt.app/about/coaches/1"><img class="coaches-picture" src="http://nlpt.app/images/hopf.jpg"></a>
+							<a href="/about/coaches/1"><img class="coaches-picture" src="/images/hopf.jpg"></a>
+							<a href="/about/coaches/1"><img class="coaches-picture" src="/images/hopf.jpg"></a>
 						</div>
 						<div class="col-md-3">
-							<a href="http://nlpt.app/about/coaches/1"><img class="coaches-picture" src="http://nlpt.app/images/hopf.jpg"></a>
+							<a href="/about/coaches/1"><img class="coaches-picture" src="/images/hopf.jpg"></a>
 						</div>
 						<div class="col-md-3">
-							<a href="http://nlpt.app/about/coaches/1"><img class="coaches-picture" src="http://nlpt.app/images/hopf.jpg"></a>
+							<a href="/about/coaches/1"><img class="coaches-picture" src="/images/hopf.jpg"></a>
 						</div>
 					</div>
 				</div>

@@ -25,9 +25,9 @@
 					</div>
 					<h1>Connect With Us</h1>
 					<div class="contact-blurb">
-						<a href="https://www.facebook.com/nlpt1/"><img class="social-icons" src="http://nlpt.app/images/facebook.png"></a>
-						<a href="https://twitter.com/NLPT1"><img class="social-icons" src="http://nlpt.app/images/twitter.png"></a>
-						<a href="https://www.instagram.com/nlpt1/"><img class="social-icons" src="http://nlpt.app/images/instagram.png"></a>
+						<a href="https://www.facebook.com/nlpt1/"><img class="social-icons" src="/images/facebook.png"></a>
+						<a href="https://twitter.com/NLPT1"><img class="social-icons" src="/images/twitter.png"></a>
+						<a href="https://www.instagram.com/nlpt1/"><img class="social-icons" src="/images/instagram.png"></a>
 					</div>
 				</div>
 				<div class="col-md-6">

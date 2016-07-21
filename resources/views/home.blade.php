@@ -62,15 +62,15 @@
 										<div class="col-md-5 blog">
 											<h2 class="blogpost-title">Latest Blog Posts</h2>
 											<div class="jumbotron">
-												<h3>Blog titles are boring.</h3>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor...
+												<h3><a href="/blogs">Getting the heart of the kettlebell swing.</a></h3>
+												<i class="fa fa-user" aria-hidden="true"><small>Dylan Campion</small></i>
+												<p>We love the kettlebell at NLPT (from now on, referred to as a KB…less typing). What makes the KB great is that it works so well in so many different situations. From performing a rehabilitative exercise to a KB-only aerobic circuit, the KB is diverse<a href="/blogs">....</a>
 												</p>
 											</div>
 											<div class="jumbotron">
-												<h3>Blog titles are boring.</h3>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor...
+												<h3><a href="/blogs">The red light district.</a></h3>
+												<i class="fa fa-user" aria-hidden="true"><small>Zach Shomphe</small></i>
+												<p>If you’re a hockey player I’m sure you’ve heard the phrase that the game is 80% mental more than once growing up. This phrase is most accurate when speaking about the masked men between the pipes<a href="/blogs">....</a>
 												</p>
 											</div>
 										</div>

@@ -20,7 +20,7 @@
 							<Actioncall :show.sync="showAction" title="NLPTyouth"></Actioncall>
 						</div>
 						<div class="col-md-7 ">
-							<img class="nlptyouth-picture" src="http://nlpt.app/images/youth.jpg">
+							<img class="nlptyouth-picture" src="/images/youth.jpg">
 						</div>
 					</div>
 					
@@ -46,7 +46,7 @@
 							</div>
 						</div>
 						<div class="col-md-4 philosophy-section">
-							<img class="nlptyouth-picture" src="http://nlpt.app/images/train.jpg">
+							<img class="nlptyouth-picture" src="/images/train.jpg">
 						</div>
 						<div class="col-md-4 philosophy-section">
 							<h2>Quality first</h2>

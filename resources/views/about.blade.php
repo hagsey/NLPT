@@ -17,7 +17,7 @@
 						</div>
 					</div>
 					<div class="col-md-5">
-						<img class="about-picture" src="http://nlpt.app/images/program.jpg">
+						<img class="about-picture" src="/images/program.jpg">
 					</div>
 				</div>
 			</div>

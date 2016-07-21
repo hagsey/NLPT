@@ -1,7 +1,7 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container">
 		<a href="/">
-			<img class="logo" src="http://nlpt.app/images/logo.png">
+			<img class="logo" src="/images/logo.png">
 		</a>
 		<div class="navbar-header page-scroll">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">

@@ -25,7 +25,7 @@
 						<Actioncall :show.sync="showAction" title="NLPTteam"></Actioncall>
 					</div>
 					<div class="col-md-4">
-						<img class="nlptteam-picture" src="http://nlpt.app/images/train.jpg">
+						<img class="nlptteam-picture" src="/images/train.jpg">
 					</div>
 					
 				</div>
@@ -58,24 +58,16 @@
 							</div>
 						</div>
 						<div class="col-md-4 pillar">
-							<img class="nlptteam-picture" src="http://nlpt.app/images/train.jpg">
+							<img class="nlptteam-picture" src="/images/train.jpg">
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-6 pillar pillar2">
 							<h2>Pillar #2: Strength and Speed Development</h2>
 							<div class="pillar-text">
-								<p>At NLPT, we spend a considerable amount of time working on general strength development. The reason we do this is that by simply improving general strength, nearly all of the other athletic abilities improve as a result. Speed improves as the athlete is able to direct more force into the ice with each stride. Work capacity improves as it requires less energy to cover a given distance. Incidents of injuries are reduced because the athletes are better able to accept the force of a hit, fall, landing, or change in direction. We develop strength both through bodyweight (and when necessary, externally weighted) movements and always emphasize proper technique over more weight on the bar.
+								<p>At NLPT, we spend a considerable amount of time working on general strength development. The reason we do this is that by simply improving general strength, nearly all of the other athletic abilities improve as a result. Speed improves as the athlete is able to direct more force into the ice with each stride. We develop strength both through bodyweight (and when necessary, externally weighted) movements and always emphasize proper technique over more weight on the bar.
 								</p>
-								<p>
-									 Features include:
-									 <ul>
-										<li>Learning the proper technique of fundamental strength moves such as squats, lunges, and push-ups</li>
-										<li>A system of safe, gradual progression with each of the movements</li>
-										<li>Static strength through isometrics</li>
-										<li>Core strength development</li>
-									</ul>
-								</p>
+								
 							</div>
 						</div>
 						<div class="col-md-6 pillar pillar3">
@@ -90,7 +82,7 @@
 
 					<div class="row pillar4">
 						<div class="col-md-4 pillar">
-							<img class="nlptteam-picture" src="http://nlpt.app/images/team.jpg">
+							<img class="nlptteam-picture" src="/images/team.jpg">
 						</div>
 						<div class="col-md-8 pillar">
 							<h2>Pillar #4: Competition</h2>
@@ -135,7 +127,7 @@
 					<div class="col-md-4 option">
 						<h3>Flex Plan</h3>
 						<p>With this option, teams choose when and how often they train. There is no minimum or maximum of now many sessions that can be booked.</p>
-						<img class="nlptteam-picture" src="http://nlpt.app/images/team.jpg">
+						<img class="nlptteam-picture" src="/images/team.jpg">
 					</div>
 				</div>
 			</div>

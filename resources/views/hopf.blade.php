@@ -17,7 +17,7 @@
 			</div>
 			<div class="row bio">
 				<div class="col-md-3">
-					<img class="coaches-picture" src="http://nlpt.app/images/hopf.jpg">
+					<img class="coaches-picture" src="/images/hopf.jpg">
 				</div>
 				<div class="col-md-9">
 					<p>Andrew attended the University of Waterloo and obtained both a Bachelor’s degree in Kinesiology (2007) and a Master’s of Science degree in Exercise Physiology (2009). During his Master’s program, Andrew founded Next Level Performance Training and quickly established himself as one of the region’s premier strength and conditioning coaches of young athletes. Since that time he has grown NLPT into the region’s top performance enhancement and athletic development companies, helping athletes of all ages, sports, and ability levels optimize their health and performance.
