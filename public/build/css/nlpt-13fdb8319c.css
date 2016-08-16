@@ -6531,8 +6531,17 @@ button.close {
 .home_page .new-stuff .blogpost-title {
   text-align: center;
 }
+.home_page .new-stuff .events-title {
+  text-align: center;
+}
 .home_page .new-stuff .events {
-  padding-left: 5%;
+  padding-left: 3%;
+  padding-bottom: 5%;
+}
+.home_page .new-stuff .event {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding-bottom: 5%;
 }
 .program_sidebar .sidebar {
   height: 100%;
@@ -6546,6 +6555,41 @@ button.close {
 }
 .program_sidebar .sidebar-option a {
   color: black;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.program_sidebar .sidebar-nav {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+@media (min-width: 768px) {
+  .program_sidebar .sidebar-toggle {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .program_sidebar .sidebar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 45%;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-image: none;
+    border: 1px solid #888;
+    border-radius: 4px;
+  }
+  .program_sidebar .sidebar-toggle .icon-bar {
+    background-color: #888;
+    margin-top: 4px;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+  }
+  .program_sidebar .sidebar-toggle button {
+    background-color: #ddd;
+  }
 }
 .program_page {
   letter-spacing: 1px;
@@ -6555,8 +6599,8 @@ button.close {
   width: 100% !important;
   margin-top: 100px;
 }
-.program_page .first-section .container {
-  margin-top: 15%;
+.program_page .first-section .row {
+  margin-top: 5%;
 }
 .program_page .all-programs-text h1 {
   text-align: center;
@@ -6573,8 +6617,18 @@ button.close {
   color: #e6b800;
 }
 .program_page .program-picture {
-  padding-bottom: 25%;
   width: 100% !important;
+  margin-top: 30px;
+}
+@media (min-width: 769px) {
+  .program_page .program-picture {
+    padding-bottom: 15%;
+  }
+}
+@media (max-width: 768px) {
+  .program_page .program-picture {
+    padding-bottom: 5%;
+  }
 }
 .nlptathlete-page {
   height: 200%;
@@ -6590,7 +6644,7 @@ button.close {
   padding-top: 100px;
 }
 .nlptathlete-page .first-section .first-content {
-  margin-top: 6%;
+  margin-top: 5%;
 }
 .nlptathlete-page .first-section .nlptathlete-text h1 {
   text-align: center;
@@ -6600,8 +6654,6 @@ button.close {
   padding: 5% 5% 0% 5%;
 }
 .nlptathlete-page .first-section .action-btn {
-  margin-left: 33.333%;
-  margin-top: 5%;
   padding: 15px 22px;
   font-size: 22px;
   line-height: 1.3333333;
@@ -6612,8 +6664,24 @@ button.close {
   color: #e6b800;
 }
 .nlptathlete-page .first-section .nlptathlete-picture {
-  padding-top: 25%;
+  padding-top: 5%;
   width: 100% !important;
+}
+@media (min-width: 769px) {
+  .nlptathlete-page .first-section .nlptathlete-picture {
+    padding-bottom: 15%;
+  }
+  .nlptathlete-page .first-section .action-btn {
+    margin-top: 25%;
+  }
+}
+@media (max-width: 768px) {
+  .nlptathlete-page .first-section .nlptathlete-picture {
+    padding-bottom: 5%;
+  }
+  .nlptathlete-page .first-section .action-btn {
+    margin-top: 5%;
+  }
 }
 .nlptathlete-page .second-section {
   min-height: 50% !important;
@@ -6634,22 +6702,18 @@ button.close {
 .nlptathlete-page .second-section .step1 {
   border-bottom: 1px solid #e6b800;
 }
-.nlptathlete-page .second-section .step1 .quote {
-  margin: 5% 10%;
-}
-.nlptathlete-page .second-section .step1 .purpose {
-  padding-top: 5%;
-}
-.nlptathlete-page .second-section .step1 .assessment {
+.nlptathlete-page .second-section .step1 .program {
   padding-top: 5%;
 }
 .nlptathlete-page .second-section .step1 .nlptathlete-picture {
+  margin-top: 20px;
+  padding-bottom: 5%;
   width: 100% !important;
 }
-.nlptathlete-page .second-section .step2 .design {
+.nlptathlete-page .second-section .step2 .environment {
   padding-top: 5%;
 }
-.nlptathlete-page .second-section .step2 .considerations {
+.nlptathlete-page .second-section .step3 .coaching {
   padding-top: 5%;
 }
 @media (min-width: 992px) {
@@ -6662,15 +6726,6 @@ button.close {
     border-bottom: 1px solid #e6b800;
   }
 }
-.nlptathlete-page .second-section .step3 {
-  border-bottom: 1px solid #e6b800;
-}
-.nlptathlete-page .second-section .step3 .train {
-  padding-top: 5%;
-}
-.nlptathlete-page .second-section .step4 .re-assess {
-  padding-top: 5%;
-}
 .nlptathlete-page .third-section {
   min-height: 50% !important;
   width: 100% !important;
@@ -6680,15 +6735,24 @@ button.close {
   padding-top: 20px;
   font-variant: small-caps;
 }
-.nlptathlete-page .third-section .quote {
-  padding-top: 5%;
-}
-.nlptathlete-page .third-section .referral {
-  padding-top: 5%;
+.nlptathlete-page .third-section .details {
+  padding-top: 3%;
+  padding-bottom: 5%;
 }
 .nlptathlete-page .third-section .nlptathlete-picture {
-  padding-top: 20%;
+  padding-bottom: 5%;
   width: 100% !important;
+}
+.nlptathlete-page .third-section .price-table {
+  margin-top: 20px;
+}
+@media (max-width: 424px) {
+  .nlptathlete-page .third-section .price-table tbody {
+    font-size: 8px;
+  }
+  .nlptathlete-page .third-section .price-table thead {
+    font-size: 10px;
+  }
 }
 .nlptfit-page {
   height: 200%;
@@ -6704,7 +6768,7 @@ button.close {
   padding-top: 100px;
 }
 .nlptfit-page .first-section .first-content {
-  margin-top: 6%;
+  margin-top: 5%;
 }
 .nlptfit-page .first-section .nlptfit-text h1 {
   text-align: center;
@@ -6714,8 +6778,6 @@ button.close {
   padding: 5% 5% 0% 5%;
 }
 .nlptfit-page .first-section .action-btn {
-  margin-left: 33.333%;
-  margin-top: 5%;
   padding: 15px 22px;
   font-size: 22px;
   line-height: 1.3333333;
@@ -6726,8 +6788,24 @@ button.close {
   color: #e6b800;
 }
 .nlptfit-page .first-section .nlptfit-picture {
-  padding-top: 25%;
+  margin-top: 20px;
   width: 100% !important;
+}
+@media (min-width: 769px) {
+  .nlptfit-page .first-section .nlptfit-picture {
+    padding-bottom: 15%;
+  }
+  .nlptfit-page .first-section .action-btn {
+    margin-top: 15%;
+  }
+}
+@media (max-width: 768px) {
+  .nlptfit-page .first-section .nlptfit-picture {
+    padding-bottom: 5%;
+  }
+  .nlptfit-page .first-section .action-btn {
+    margin-top: 5%;
+  }
 }
 .nlptfit-page .second-section {
   min-height: 50% !important;
@@ -6758,6 +6836,8 @@ button.close {
   padding-top: 5%;
 }
 .nlptfit-page .second-section .step1 .nlptfit-picture {
+  margin-top: 20px;
+  padding-bottom: 5%;
   width: 100% !important;
 }
 .nlptfit-page .second-section .step2 .design {
@@ -6794,14 +6874,17 @@ button.close {
   padding-top: 20px;
   font-variant: small-caps;
 }
-.nlptfit-page .third-section .quote {
-  padding-top: 5%;
+.nlptfit-page .third-section .details {
+  padding-top: 3%;
 }
-.nlptfit-page .third-section .referral {
-  padding-top: 5%;
+.nlptfit-page .third-section .membership {
+  padding-bottom: 5%;
+}
+.nlptfit-page .third-section .quote {
+  margin-top: 20px;
 }
 .nlptfit-page .third-section .nlptfit-picture {
-  padding-top: 20%;
+  margin-top: 20px;
   width: 100% !important;
 }
 .nlptteam-page {
@@ -6818,7 +6901,7 @@ button.close {
   padding-top: 100px;
 }
 .nlptteam-page .first-section .first-content {
-  margin-top: 6%;
+  margin-top: 5%;
 }
 .nlptteam-page .first-section .nlptteam-text h1 {
   text-align: center;
@@ -6828,7 +6911,6 @@ button.close {
   padding: 5% 5% 0% 5%;
 }
 .nlptteam-page .first-section .action-btn {
-  margin-top: 20%;
   padding: 15px 22px;
   font-size: 22px;
   line-height: 1.3333333;
@@ -6839,7 +6921,24 @@ button.close {
   color: #e6b800;
 }
 .nlptteam-page .first-section .nlptteam-picture {
+  margin-top: 20px;
   width: 100% !important;
+}
+@media (min-width: 769px) {
+  .nlptteam-page .first-section .nlptteam-picture {
+    padding-bottom: 15%;
+  }
+  .nlptteam-page .first-section .action-btn {
+    margin-top: 10%;
+  }
+}
+@media (max-width: 768px) {
+  .nlptteam-page .first-section .nlptteam-picture {
+    padding-bottom: 5%;
+  }
+  .nlptteam-page .first-section .action-btn {
+    margin-top: 5%;
+  }
 }
 .nlptteam-page .second-section {
   min-height: 50% !important;
@@ -6847,7 +6946,7 @@ button.close {
   background-color: #f9f9f9;
 }
 .nlptteam-page .second-section .nlptteam-picture {
-  padding: 5% 0%;
+  margin-top: 20px;
   width: 100% !important;
 }
 .nlptteam-page .second-section .title-section .pillars-title {
@@ -6919,7 +7018,7 @@ button.close {
   padding-top: 100px;
 }
 .nlptyouth-page .first-section .first-content {
-  margin-top: 6%;
+  margin-top: 5%;
 }
 .nlptyouth-page .first-section .nlptyouth-text h1 {
   text-align: center;
@@ -6933,18 +7032,25 @@ button.close {
   color: #e6b800;
 }
 .nlptyouth-page .first-section .action-btn {
-  margin-top: 20%;
   padding: 15px 22px;
   font-size: 22px;
   line-height: 1.3333333;
   border-radius: 8px;
+  margin-bottom: 20px;
 }
 .nlptyouth-page .first-section .nlptyouth-picture {
-  padding: 5% 0%;
+  padding-bottom: 5%;
   width: 100% !important;
 }
-.nlptyouth-page .first-section .started {
-  margin-top: 8%;
+@media (min-width: 769px) {
+  .nlptyouth-page .first-section .action-btn {
+    margin-top: 35%;
+  }
+}
+@media (max-width: 768px) {
+  .nlptyouth-page .first-section .action-btn {
+    margin-top: 5%;
+  }
 }
 .nlptyouth-page .second-section {
   min-height: 50% !important;
@@ -6952,7 +7058,7 @@ button.close {
   background-color: #f9f9f9;
 }
 .nlptyouth-page .second-section .nlptyouth-picture {
-  padding: 5% 0%;
+  margin-top: 20px;
   width: 100% !important;
 }
 .nlptyouth-page .second-section .title-section .philosophy-title {
@@ -6967,13 +7073,13 @@ button.close {
   padding: 5% 0% 0% 0%;
 }
 .nlptyouth-page .second-section .philosophy-points .philosophy-section {
-  padding: 5%;
+  padding: 0% 2%;
 }
 .nlptyouth-page .second-section .philosophy-points .first-row {
   border-bottom: 1px solid #e6b800;
 }
 @media (max-width: 991px) {
-  .nlptyouth-page .second-section .philosophy-points .philosophy-section {
+  .nlptyouth-page .second-section .philosophy-points .gold-underline {
     border-bottom: 1px solid #e6b800;
   }
 }
@@ -6990,7 +7096,10 @@ button.close {
   padding: 0% 20%;
 }
 .nlptyouth-page .third-section .faq {
-  padding-top: 5%;
+  background-color: #eeeeee;
+  border-radius: 15px;
+  margin: 2%;
+  padding: 2%;
 }
 .nlptyouth-page .third-section .faq p {
   padding-top: 2%;
@@ -7015,88 +7124,25 @@ button.close {
   width: 100% !important;
   padding-top: 100px;
 }
-.nlptrehab-page .first-section .first-content {
-  margin-top: 6%;
-}
-.nlptrehab-page .first-section .nlptrehab-text h1 {
-  text-align: center;
-  font-variant: small-caps;
-}
-.nlptrehab-page .first-section .nlptrehab-text .nlptrehab-blurb {
-  padding: 5% 5% 0% 5%;
-}
-.nlptrehab-page .first-section .content-title {
-  text-align: center;
-  color: #e6b800;
-}
 .nlptrehab-page .first-section .nlptrehab-picture {
-  padding: 5% 0%;
+  margin-top: 20px;
   width: 100% !important;
 }
-.nlptrehab-page .first-section .started {
-  margin-top: 8%;
-}
-.nlptrehab-page .second-section {
-  min-height: 50% !important;
-  width: 100% !important;
-  background-color: #f9f9f9;
-}
-.nlptrehab-page .second-section .nlptrehab-picture {
-  padding: 5% 0%;
-  width: 100% !important;
-}
-.nlptrehab-page .second-section .bio {
+.nlptrehab-page .first-section .massuese {
   margin-top: 3%;
 }
-.nlptrehab-page .second-section .massuese {
-  margin-top: 8%;
-}
-.nlptrehab-page .second-section .title-section .title {
-  text-align: center;
-  padding-top: 20px;
-  font-variant: small-caps;
-}
-.nlptrehab-page .second-section .title-section p {
-  padding: 0% 20%;
-}
-.nlptrehab-page .second-section .philosophy-points {
-  padding-top: 2%;
-}
-.nlptrehab-page .second-section .philosophy-points .philosophy-text {
-  padding: 5% 0% 0% 0%;
-}
-.nlptrehab-page .second-section .philosophy-points .philosophy-section {
-  padding: 5%;
-}
-.nlptrehab-page .second-section .philosophy-points .first-row {
-  border-bottom: 1px solid #e6b800;
-}
 @media (max-width: 991px) {
-  .nlptrehab-page .second-section .philosophy-points .philosophy-section {
-    border-bottom: 1px solid #e6b800;
+  .nlptrehab-page .first-section .special-centering {
+    text-align: center;
   }
 }
-.nlptrehab-page .third-section {
-  min-height: 50% !important;
-  width: 100% !important;
-}
-.nlptrehab-page .third-section .title-section .title {
+.nlptrehab-page .first-section .title-section .title {
   text-align: center;
   padding-top: 20px;
   font-variant: small-caps;
 }
-.nlptrehab-page .third-section .title-section p {
+.nlptrehab-page .first-section .title-section p {
   padding: 0% 20%;
-}
-.nlptrehab-page .third-section .doctor {
-  margin-top: 12%;
-}
-.nlptrehab-page .third-section .nlptrehab-picture {
-  padding: 5% 0%;
-  width: 100% !important;
-}
-.nlptrehab-page .third-section blockquote {
-  padding-left: 15%;
 }
 .about_sidebar .sidebar {
   height: 100%;
@@ -7110,6 +7156,41 @@ button.close {
 }
 .about_sidebar .sidebar-option a {
   color: black;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.about_sidebar .sidebar-nav {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+@media (min-width: 768px) {
+  .about_sidebar .sidebar-toggle {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .about_sidebar .sidebar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 45%;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-image: none;
+    border: 1px solid #888;
+    border-radius: 4px;
+  }
+  .about_sidebar .sidebar-toggle .icon-bar {
+    background-color: #888;
+    margin-top: 4px;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+  }
+  .about_sidebar .sidebar-toggle button {
+    background-color: #ddd;
+  }
 }
 .about_page {
   letter-spacing: 1px;
@@ -7120,12 +7201,13 @@ button.close {
 .about_page .first-section {
   min-height: 50% !important;
   width: 100% !important;
+  padding-top: 100px;
 }
-.about_page .first-section .container {
-  margin-top: 15%;
+.about_page .first-section .about {
+  margin-top: 5%;
 }
 .about_page .first-section .first-content {
-  margin-top: 6%;
+  margin-top: 5%;
 }
 .about_page .first-section .about-text h1 {
   text-align: center;
@@ -7139,8 +7221,18 @@ button.close {
   color: #e6b800;
 }
 .about_page .first-section .about-picture {
-  padding-bottom: 25%;
+  margin-top: 20px;
   width: 100% !important;
+}
+@media (min-width: 769px) {
+  .about_page .first-section .about-picture {
+    padding-bottom: 25%;
+  }
+}
+@media (max-width: 768px) {
+  .about_page .first-section .about-picture {
+    padding-bottom: 5%;
+  }
 }
 .coaches_page {
   height: 100%;
@@ -7375,6 +7467,7 @@ body,
 }
 .connect {
   text-align: center;
+  padding-bottom: 5%;
 }
 .connect h3 {
   border-bottom: 1px solid #e6b800;
@@ -7382,6 +7475,7 @@ body,
 .footer-icons {
   height: 50px;
   width: 50px;
+  margin: 0% 3%;
 }
 .footer {
   min-height: 15% !important;
@@ -7392,11 +7486,21 @@ body,
 .footer .schedule th {
   text-align: center;
 }
-.footer .schedule tbody {
-  font-size: 10px;
+@media (min-width: 345px) {
+  .footer .schedule tbody {
+    font-size: 10px;
+  }
+  .footer .day-header {
+    font-size: 14px;
+  }
 }
-.footer .day-header {
-  font-size: 14px;
+@media (max-width: 344px) {
+  .footer .schedule tbody {
+    font-size: 8px;
+  }
+  .footer .day-header {
+    font-size: 10px;
+  }
 }
 .footer .table .table {
   background-color: transparent;

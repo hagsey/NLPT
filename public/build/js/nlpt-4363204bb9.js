@@ -25134,7 +25134,7 @@ if (module.hot) {(function () {  module.hot.accept()
   }
 })()}
 },{"./modalForm.vue":70,"babel-runtime/core-js/promise":1,"vue":67,"vue-hot-reload-api":58,"vue-resource":60,"vueify-insert-css":68}],70:[function(require,module,exports){
-var __vueify_style__ = require("vueify-insert-css").insert("\n.modal-mask {\n\tposition: fixed;\n\tz-index: 9998;\n\ttop: 0;\n\tleft: 0;\n\twidth: 100%;\n\theight: 100%;\n\tbackground-color: rgba(0, 0, 0, .5);\n\tdisplay: table;\n\t-webkit-transition: opacity .3s ease;\n\ttransition: opacity .3s ease;\n}\n\n.modal-wrapper {\n\tdisplay: table-cell;\n\tvertical-align: middle;\n}\n\n.modal-container {\n\twidth: 300px;\n\tmargin: 0px auto;\n\tpadding: 20px 30px;\n\tbackground-color: #fff;\n\tborder-radius: 2px;\n\tbox-shadow: 0 2px 8px rgba(0, 0, 0, .33);\n\t-webkit-transition: all .3s ease;\n\ttransition: all .3s ease;\n\tfont-family: Helvetica, Arial, sans-serif;\n}\n.modal-container-lg {\n\twidth: 800px;\n}\n\n.modal-container-bg {\n\twidth: 600px;\n}\n\n.modal-form-button {\n\tfloat: right;\n\t-webkit-transition: all 1.0s ease;\n\ttransition: all 1.0s ease;\n}\n\n.modal-form-button.updated {\n\tbackground-color: green;\n\tcolor: white;\n}\n\n.modal-form-button.errored {\n\tbackground-color: red;\n\tcolor: white;\n}\n\n.modal-form-close-button {\n    float:right;\n    display:inline-block;\n    padding:0px 0px;\n    margin: -20px -30px;\n    border-radius: 2px;\n    \n}\n\n.modal-form-close-button:hover {\n\tcolor:#fff;\n}\n\n/*\n * the following styles are auto-applied to elements with\n * v-transition=\"modal\" when their visiblity is toggled\n * by Vue.js.\n *\n * You can easily play with the modal transition by editing\n * these styles.\n */\n\n .modal-enter, .modal-leave {\n \topacity: 0;\n }\n\n .modal-enter .modal-container,\n .modal-leave .modal-container {\n \t-webkit-transform: scale(1.1);\n \ttransform: scale(1.1);\n }\n")
+var __vueify_style__ = require("vueify-insert-css").insert("\n.modal-mask {\n\tposition: fixed;\n\tz-index: 9998;\n\ttop: 0;\n\tleft: 0;\n\twidth: 100%;\n\theight: 100%;\n\tbackground-color: rgba(0, 0, 0, .5);\n\tdisplay: table;\n\t-webkit-transition: opacity .3s ease;\n\ttransition: opacity .3s ease;\n}\n\n.modal-wrapper {\n\tdisplay: table-cell;\n\tvertical-align: middle;\n}\n\n.modal-container {\n\twidth: 300px;\n\toverflow-y: auto;\n\tmax-height: 100%;\n\tmargin: 0px auto;\n\tpadding: 20px 30px 0px;\n\tbackground-color: #fff;\n\tborder-radius: 2px;\n\tbox-shadow: 0 2px 8px rgba(0, 0, 0, .33);\n\t-webkit-transition: all .3s ease;\n\ttransition: all .3s ease;\n\tfont-family: Helvetica, Arial, sans-serif;\n}\n.modal-container-lg {\n\twidth: 800px;\n}\n\n.modal-container-bg {\n\twidth: 600px;\n}\n\n.modal-form-button {\n\tfloat: right;\n\t-webkit-transition: all 1.0s ease;\n\ttransition: all 1.0s ease;\n}\n\n.modal-form-button.updated {\n\tbackground-color: green;\n\tcolor: white;\n}\n\n.modal-form-button.errored {\n\tbackground-color: red;\n\tcolor: white;\n}\n\n.modal-form-close-button {\n    float:right;\n    display:inline-block;\n    padding:0px 0px;\n    margin: -20px -30px;\n    border-radius: 2px;\n    \n}\n\n.modal-form-close-button:hover {\n\tcolor:#fff;\n}\n\n/*\n * the following styles are auto-applied to elements with\n * v-transition=\"modal\" when their visiblity is toggled\n * by Vue.js.\n *\n * You can easily play with the modal transition by editing\n * these styles.\n */\n\n .modal-enter, .modal-leave {\n \topacity: 0;\n }\n\n .modal-enter .modal-container,\n .modal-leave .modal-container {\n \t-webkit-transform: scale(1.1);\n \ttransform: scale(1.1);\n }\n")
 'use strict';
 
 module.exports = {
@@ -25165,7 +25165,7 @@ if (module.hot) {(function () {  module.hot.accept()
   if (!hotAPI.compatible) return
   var id = "/Users/adriankrebs/Development/NLPT/resources/assets/js/components/modalForm.vue"
   module.hot.dispose(function () {
-    require("vueify-insert-css").cache["\n.modal-mask {\n\tposition: fixed;\n\tz-index: 9998;\n\ttop: 0;\n\tleft: 0;\n\twidth: 100%;\n\theight: 100%;\n\tbackground-color: rgba(0, 0, 0, .5);\n\tdisplay: table;\n\t-webkit-transition: opacity .3s ease;\n\ttransition: opacity .3s ease;\n}\n\n.modal-wrapper {\n\tdisplay: table-cell;\n\tvertical-align: middle;\n}\n\n.modal-container {\n\twidth: 300px;\n\tmargin: 0px auto;\n\tpadding: 20px 30px;\n\tbackground-color: #fff;\n\tborder-radius: 2px;\n\tbox-shadow: 0 2px 8px rgba(0, 0, 0, .33);\n\t-webkit-transition: all .3s ease;\n\ttransition: all .3s ease;\n\tfont-family: Helvetica, Arial, sans-serif;\n}\n.modal-container-lg {\n\twidth: 800px;\n}\n\n.modal-container-bg {\n\twidth: 600px;\n}\n\n.modal-form-button {\n\tfloat: right;\n\t-webkit-transition: all 1.0s ease;\n\ttransition: all 1.0s ease;\n}\n\n.modal-form-button.updated {\n\tbackground-color: green;\n\tcolor: white;\n}\n\n.modal-form-button.errored {\n\tbackground-color: red;\n\tcolor: white;\n}\n\n.modal-form-close-button {\n    float:right;\n    display:inline-block;\n    padding:0px 0px;\n    margin: -20px -30px;\n    border-radius: 2px;\n    \n}\n\n.modal-form-close-button:hover {\n\tcolor:#fff;\n}\n\n/*\n * the following styles are auto-applied to elements with\n * v-transition=\"modal\" when their visiblity is toggled\n * by Vue.js.\n *\n * You can easily play with the modal transition by editing\n * these styles.\n */\n\n .modal-enter, .modal-leave {\n \topacity: 0;\n }\n\n .modal-enter .modal-container,\n .modal-leave .modal-container {\n \t-webkit-transform: scale(1.1);\n \ttransform: scale(1.1);\n }\n"] = false
+    require("vueify-insert-css").cache["\n.modal-mask {\n\tposition: fixed;\n\tz-index: 9998;\n\ttop: 0;\n\tleft: 0;\n\twidth: 100%;\n\theight: 100%;\n\tbackground-color: rgba(0, 0, 0, .5);\n\tdisplay: table;\n\t-webkit-transition: opacity .3s ease;\n\ttransition: opacity .3s ease;\n}\n\n.modal-wrapper {\n\tdisplay: table-cell;\n\tvertical-align: middle;\n}\n\n.modal-container {\n\twidth: 300px;\n\toverflow-y: auto;\n\tmax-height: 100%;\n\tmargin: 0px auto;\n\tpadding: 20px 30px 0px;\n\tbackground-color: #fff;\n\tborder-radius: 2px;\n\tbox-shadow: 0 2px 8px rgba(0, 0, 0, .33);\n\t-webkit-transition: all .3s ease;\n\ttransition: all .3s ease;\n\tfont-family: Helvetica, Arial, sans-serif;\n}\n.modal-container-lg {\n\twidth: 800px;\n}\n\n.modal-container-bg {\n\twidth: 600px;\n}\n\n.modal-form-button {\n\tfloat: right;\n\t-webkit-transition: all 1.0s ease;\n\ttransition: all 1.0s ease;\n}\n\n.modal-form-button.updated {\n\tbackground-color: green;\n\tcolor: white;\n}\n\n.modal-form-button.errored {\n\tbackground-color: red;\n\tcolor: white;\n}\n\n.modal-form-close-button {\n    float:right;\n    display:inline-block;\n    padding:0px 0px;\n    margin: -20px -30px;\n    border-radius: 2px;\n    \n}\n\n.modal-form-close-button:hover {\n\tcolor:#fff;\n}\n\n/*\n * the following styles are auto-applied to elements with\n * v-transition=\"modal\" when their visiblity is toggled\n * by Vue.js.\n *\n * You can easily play with the modal transition by editing\n * these styles.\n */\n\n .modal-enter, .modal-leave {\n \topacity: 0;\n }\n\n .modal-enter .modal-container,\n .modal-leave .modal-container {\n \t-webkit-transform: scale(1.1);\n \ttransform: scale(1.1);\n }\n"] = false
     document.head.removeChild(__vueify_style__)
   })
   if (!module.hot.data) {
@@ -25230,39 +25230,39 @@ module.exports = {
 
 			Cambridge: {
 				Fit: {
-					Monday: ['6-9 am', '12-1 pm', '5-6:30 pm'],
-					Tuesday: ['6-9 am', '2-3 pm', '5-6:30 pm'],
-					Wednesday: ['6-9 am', '12-1 pm', '5-6:30 pm'],
-					Thursday: ['6-9 am', '2-3 pm', '5-6:30 pm'],
-					Friday: ['6-9 am', '12-1 pm', '5-6:30 pm'],
+					Monday: ['6-9 am', '12-1 pm', '5-6 pm'],
+					Tuesday: ['6-9 am', '2-3 pm', '5-6 pm'],
+					Wednesday: ['6-9 am', '12-1 pm', '5 pm'],
+					Thursday: ['6-9 am', '2-3 pm', '5-6 pm'],
+					Friday: ['6-9 am', '12-1 pm', '5-6 pm'],
 					Saturday: ['8-10 am', '--', '--']
 				},
 				Athlete: {
-					Monday: ['6-12 am', '2-8:30 pm', '--'],
-					Tuesday: ['6-12 am', '2-8:30 pm', '--'],
-					Wednesday: ['6-12 am', '2-8:30 pm', '--'],
-					Thursday: ['6-12 am', '2-8:30 pm', '--'],
-					Friday: ['6-12 am', '2-8:30 pm', '--'],
-					Saturday: ['8-12 am', '2-7 pm', '--']
+					Monday: ['4-7 pm', '--', '--'],
+					Tuesday: ['4-7 pm', '--', '--'],
+					Wednesday: ['4-7 pm', '--', '--'],
+					Thursday: ['4-7 pm', '--', '--'],
+					Friday: ['4-6 pm', '--', '--'],
+					Saturday: ['10-12 pm', '--', '--']
 				}
 			},
 
 			Stratford: {
 				Fit: {
-					Monday: ['6-9 am', '12-1 pm', '5-6:30 pm'],
-					Tuesday: ['6-9 am', '2-3 pm', '5-6:30 pm'],
-					Wednesday: ['--', '--', '--'],
-					Thursday: ['6-9 am', '2-3 pm', '5-6:30 pm'],
-					Friday: ['6-9 am', '12-1 pm', '5-6:30 pm'],
-					Saturday: ['8-10 am', '--', '--']
+					Monday: ['12-1 pm', '5-6:30 pm', '--'],
+					Tuesday: ['12-1 pm', '5-6:30 pm', '--'],
+					Wednesday: ['12-1 pm', '5-6:30 pm', '--'],
+					Thursday: ['12-1 pm', '5-6:30 pm', '--'],
+					Friday: ['12-1 pm', '4:30-6 pm', '--'],
+					Saturday: ['8:30-9:30 am', '--', '--']
 				},
 				Athlete: {
-					Monday: ['6-12 am', '2-8:30 pm', '--'],
-					Tuesday: ['--', '--', '--'],
-					Wednesday: ['6-12 am', '2-8:30 pm', '--'],
-					Thursday: ['6-12 am', '2-8:30 pm', '--'],
-					Friday: ['6-12 am', '2-8:30 pm', '--'],
-					Saturday: ['8-12 am', '2-7 pm', '--']
+					Monday: ['1-2 pm', '6:30-7:30 pm', '--'],
+					Tuesday: ['1-2 pm', '6:30-7:30 pm', '--'],
+					Wednesday: ['1-2 pm', '6:30-7:30 pm', '--'],
+					Thursday: ['1-2 pm', '6:30-7:30 pm', '--'],
+					Friday: ['1-2 pm', '--', '--'],
+					Saturday: ['9:30-10:30 am', '--', '--']
 				}
 			}
 		};

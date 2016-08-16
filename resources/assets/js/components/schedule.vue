@@ -211,39 +211,39 @@
 
 				Cambridge: {
 					Fit: {
-						Monday: ['6-9 am','12-1 pm','5-6:30 pm'],
-						Tuesday: ['6-9 am','2-3 pm','5-6:30 pm'],
-						Wednesday: ['6-9 am','12-1 pm','5-6:30 pm'],
-						Thursday: ['6-9 am','2-3 pm','5-6:30 pm'],
-						Friday: ['6-9 am','12-1 pm','5-6:30 pm'],
+						Monday: ['6-9 am','12-1 pm','5-6 pm'],
+						Tuesday: ['6-9 am','2-3 pm','5-6 pm'],
+						Wednesday: ['6-9 am','12-1 pm','5 pm'],
+						Thursday: ['6-9 am','2-3 pm','5-6 pm'],
+						Friday: ['6-9 am','12-1 pm','5-6 pm'],
 						Saturday: ['8-10 am','--','--'],
 					},
 					Athlete: {
-						Monday: ['6-12 am','2-8:30 pm','--'],
-						Tuesday: ['6-12 am','2-8:30 pm','--'],
-						Wednesday: ['6-12 am','2-8:30 pm','--'],
-						Thursday: ['6-12 am','2-8:30 pm','--'],
-						Friday: ['6-12 am','2-8:30 pm','--'],
-						Saturday: ['8-12 am','2-7 pm','--'],
+						Monday: ['4-7 pm','--','--'],
+						Tuesday: ['4-7 pm','--','--'],
+						Wednesday: ['4-7 pm','--','--'],
+						Thursday: ['4-7 pm','--','--'],
+						Friday: ['4-6 pm','--','--'],
+						Saturday: ['10-12 pm','--','--'],
 					}
 				},
 
 				Stratford: {
 					Fit: {
-						Monday: ['6-9 am','12-1 pm','5-6:30 pm'],
-						Tuesday: ['6-9 am','2-3 pm','5-6:30 pm'],
-						Wednesday: ['--','--','--'],
-						Thursday: ['6-9 am','2-3 pm','5-6:30 pm'],
-						Friday: ['6-9 am','12-1 pm','5-6:30 pm'],
-						Saturday: ['8-10 am','--','--'],
+						Monday: ['12-1 pm','5-6:30 pm', '--'],
+						Tuesday: ['12-1 pm','5-6:30 pm', '--'],
+						Wednesday: ['12-1 pm','5-6:30 pm', '--'],
+						Thursday: ['12-1 pm','5-6:30 pm', '--'],
+						Friday: ['12-1 pm','4:30-6 pm', '--'],
+						Saturday: ['8:30-9:30 am','--','--'],
 					},
 					Athlete: {
-						Monday: ['6-12 am','2-8:30 pm','--'],
-						Tuesday: ['--','--','--'],
-						Wednesday: ['6-12 am','2-8:30 pm','--'],
-						Thursday: ['6-12 am','2-8:30 pm','--'],
-						Friday: ['6-12 am','2-8:30 pm','--'],
-						Saturday: ['8-12 am','2-7 pm','--'],
+						Monday: ['1-2 pm','6:30-7:30 pm', '--'],
+						Tuesday: ['1-2 pm','6:30-7:30 pm', '--'],
+						Wednesday: ['1-2 pm','6:30-7:30 pm', '--'],
+						Thursday: ['1-2 pm','6:30-7:30 pm', '--'],
+						Friday: ['1-2 pm','--', '--'],
+						Saturday: ['9:30-10:30 am','--','--'],
 					}
 				}
 			}

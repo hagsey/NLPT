@@ -30,7 +30,7 @@
 		
 
 		.first-content {
-			margin-top: 6%;
+			margin-top: 5%;
 		}
 		.nlptathlete-text {
 			h1 {
@@ -47,8 +47,6 @@
 		}
 
 		.action-btn {
-			margin-left: 33.333%;
-			margin-top: 5%;
 			padding: 15px 22px;
 		    font-size: 22px;
 		    line-height: 1.3333333;
@@ -61,8 +59,28 @@
 		}
 
 		.nlptathlete-picture {
-			padding-top: 25%;
+			padding-top: 5%;
 			width: 100% !important;
+		}
+
+		//big
+		@media(min-width:769px) {
+			.nlptathlete-picture {
+				padding-bottom: 15%;
+			}
+			.action-btn {
+				margin-top: 25%;
+			}
+		}
+
+		//small
+		@media(max-width:768px) {
+			.nlptathlete-picture {
+				padding-bottom: 5%;
+			}
+			.action-btn {
+				margin-top: 5%;
+			}
 		}
 	}
 
@@ -92,27 +110,29 @@
 		}
 		.step1 {
 			border-bottom: 1px solid @nlpt-gold;
-			.quote {
-				margin: 5% 10%;
-			}
-			.purpose {
-				padding-top: 5%;
-			}
-			.assessment {
+			.program {
 				padding-top: 5%;
 			}
 			.nlptathlete-picture {
+				margin-top: 20px;
+				padding-bottom: 5%;
 				width: 100% !important;
 			}
 		}
 		.step2 {
-			.design {
-				padding-top: 5%;
-			}
-			.considerations {
+			.environment {
 				padding-top: 5%;
 			}
 		}
+		
+
+		.step3 {
+
+			.coaching  {
+				padding-top: 5%;
+			}
+		}
+
 		@media(min-width:992px) {
 			.step2 {
 				border-right: 1px solid @nlpt-gold;
@@ -124,21 +144,6 @@
 				border-bottom: 1px solid @nlpt-gold;
 			}
 		}
-
-		.step3 {
-			border-bottom: 1px solid @nlpt-gold;
-
-			.train  {
-				padding-top: 5%;
-			}
-		}
-
-		.step4 {
-			.re-assess {
-				padding-top: 5%;
-			}
-		}
-
 	}
 
 	//**************
@@ -156,16 +161,27 @@
 			}
 		}
 
-		.quote {
-			padding-top: 5%;
+		.details {
+			padding-top: 3%;
+			padding-bottom: 5%;
 		}
 
-		.referral{
-			padding-top: 5%;
-		}
 		.nlptathlete-picture {
-			padding-top: 20%;
+			padding-bottom: 5%;
 			width: 100% !important;
+		}
+
+		.price-table {
+			margin-top: 20px;
+		}
+
+		@media(max-width:424px){
+			.price-table tbody {
+				font-size: 8px;
+			}
+			.price-table thead {
+				font-size: 10px;
+			}
 		}
 	}
 

@@ -30,7 +30,7 @@
 		
 
 		.first-content {
-			margin-top: 6%;
+			margin-top: 5%;
 		}
 		.nlptteam-text {
 			h1 {
@@ -45,7 +45,6 @@
 		}
 
 		.action-btn {
-			margin-top: 20%;
 			padding: 15px 22px;
 		    font-size: 22px;
 		    line-height: 1.3333333;
@@ -58,7 +57,28 @@
 		}
 
 		.nlptteam-picture {
+			margin-top: 20px;
 			width: 100% !important;
+		}
+
+		//big
+		@media(min-width:769px) {
+			.nlptteam-picture {
+				padding-bottom: 15%
+			}
+			.action-btn {
+				margin-top: 10%;
+			}
+		}
+
+		//small
+		@media(max-width:768px) {
+			.nlptteam-picture {
+				padding-bottom: 5%;
+			}
+			.action-btn {
+				margin-top: 5%;
+			}
 		}
 	}
 
@@ -71,7 +91,7 @@
 		background-color: @off-white-background;
 
 		.nlptteam-picture {
-			padding: 5% 0%;
+			margin-top: 20px;
 			width: 100% !important;
 		}
 		

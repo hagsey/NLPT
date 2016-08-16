@@ -20,32 +20,17 @@
 			<div class="row services">
 				<div class="col-md-4 service-block">
 					<h3><a href="#">Training Programs</a></h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<p>For athletes in the Cambridge, Kitchener and Waterloo area, there is no better environment to train in than NLPT. Our intimate, and hard-working atmosphere creates an environment that simply can not be replicated in your typical “gym”.
 						<p>
 						</div>
 						<div class="col-md-4 service-block">
 							<h3><a href="#">Success Stories</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								<p>
+							<p>We’re a gym that prides itself on getting results, whether it’s getting a young athlete to the next level or helping an adult fitness client to adopt a healthier lifestyle. Click here to read a little more about the people we’ve worked with.
+							<p>
 								</div>
 								<div class="col-md-4 service-block">
 									<h3><a href="#">Rehab</a></h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									<p>Our rehab department is headed up by registered massage therapist Michelle Miguel, an experienced clinician who has been a vital part of our success with our athletes and clients. Her massage therapy clinic, which is located at our Cambridge facility is open to non-NLPT clients and members of the general public.
 										<p>
 										</div>
 									</div>
@@ -60,34 +45,26 @@
 									</div>
 									<div class="row new-stuff">
 										<div class="col-md-5 blog">
-											<h2 class="blogpost-title">Latest Blog Posts</h2>
+											<h2 class="blogpost-title">Latest Blog Post</h2>
 											<div class="jumbotron">
 												<h3><a href="/blogs">Getting the heart of the kettlebell swing.</a></h3>
 												<i class="fa fa-user" aria-hidden="true"><small>Dylan Campion</small></i>
 												<p>We love the kettlebell at NLPT (from now on, referred to as a KB…less typing). What makes the KB great is that it works so well in so many different situations. From performing a rehabilitative exercise to a KB-only aerobic circuit, the KB is diverse<a href="/blogs">....</a>
 												</p>
 											</div>
-											<div class="jumbotron">
-												<h3><a href="/blogs">The red light district.</a></h3>
-												<i class="fa fa-user" aria-hidden="true"><small>Zach Shomphe</small></i>
-												<p>If you’re a hockey player I’m sure you’ve heard the phrase that the game is 80% mental more than once growing up. This phrase is most accurate when speaking about the masked men between the pipes<a href="/blogs">....</a>
-												</p>
-											</div>
 										</div>
 										<div class="col-md-6 col-md-offset-1">
-											<h2>Upcoming Events</h2>
+											<h2 class="events-title">Upcoming Events</h2>
 											<div class="events">
-												<div>
-													<h3><i class="fa fa-arrow-right fa-3" aria-hidden="true"></i>Event #1</h3>
-													<p>This is the event where stuff happens. This is most likely a small blog post.</p>
+												<div class="event">
+													<h3><i class="fa fa-arrow-right fa-3" aria-hidden="true"></i>Fall NLPT athlete session.</h3>
+													<p><small>Sept 5, 2016</small></p>
+													<p>Open to athletes 12 – 18, we have 1x, 2x, and 3x a week training plans available.</p>
 												</div>
-												<div>
-													<h3><i class="fa fa-arrow-right fa-3" aria-hidden="true"></i>Event #1</h3>
-													<p>This is the event where stuff happens. This is most likely a small blog post.</p>
-													<div>
-														<h3><i class="fa fa-arrow-right fa-3" aria-hidden="true"></i>Event #1</h3>
-														<p>This is the event where stuff happens. This is most likely a small blog post.</p>
-													</div>						
+												<div class="event">
+													<h3><i class="fa fa-arrow-right fa-3" aria-hidden="true"></i>NLPTteam season begins</h3>
+													<p><small>Sept 5, 2016</small></p>
+													<p>In-season training options available for all youth sports teams.</p>						
 												</div>
 											</div>
 

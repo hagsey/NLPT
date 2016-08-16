@@ -20,6 +20,7 @@
 		border-left: 5px solid @nlpt-gold;
 	}
 
+
 	//**************
 	// Section 1
 	//**************
@@ -27,54 +28,21 @@
 		min-height: 50% !important;
 		width: 100% !important;
 		padding-top: 100px;
-		
-
-		.first-content {
-			margin-top: 6%;
-		}
-		.nlptrehab-text {
-			h1 {
-				text-align: center;
-				font-variant: small-caps;
-			}
-			.nlptrehab-blurb {
-				padding: 5% 5% 0% 5%;
-			}
-		}
-
-
-		.content-title {
-			text-align: center;
-			color: @nlpt-gold;
-		}
 
 		.nlptrehab-picture {
-			padding: 5% 0%;
+			margin-top: 20px;
 			width: 100% !important;
 		}
-		.started {
-			margin-top: 8%;
-		}
-	}
 
-	//**************
-	// Section 2
-	//**************
-	.second-section {
-		min-height: 50% !important;
-		width: 100% !important;
-		background-color: @off-white-background;
-
-		.nlptrehab-picture {
-			padding: 5% 0%;
-			width: 100% !important;
-		}
-		
-		.bio{
+		.massuese{
 			margin-top: 3%;
 		}
-		.massuese{
-			margin-top: 8%;
+
+		//small
+		@media(max-width:991px) {
+			.special-centering {
+				text-align: center;
+			}
 		}
 		.title-section {
 			
@@ -87,61 +55,6 @@
 				padding: 0% 20%;
 			}
 		}
-		.philosophy-points {
-			padding-top: 2%;
-
-			.philosophy-text {
-				padding: 5% 0% 0% 0%;
-			}
-
-			.philosophy-section {
-				padding: 5%;
-			}
-
-			.first-row {
-				border-bottom: 1px solid @nlpt-gold;
-			}
-
-			@media(max-width:991px) {
-				.philosophy-section {
-					border-bottom: 1px solid @nlpt-gold;
-				}
-			}
-		}
 
 	}
-
-	//**************
-	// Section 3
-	//**************
-	.third-section {
-		min-height: 50% !important;
-		width: 100% !important;
-		.title-section {
-			
-			.title {
-				text-align: center;
-				padding-top: 20px;
-				font-variant: small-caps;
-			}
-			p {
-				padding: 0% 20%;
-			}
-		}
-
-		.doctor{
-			margin-top: 12%;
-		}
-		
-		.nlptrehab-picture {
-			padding: 5% 0%;
-			width: 100% !important;
-		}
-
-		blockquote {
-			padding-left: 15%;
-		}
-	}
-
-	
 }

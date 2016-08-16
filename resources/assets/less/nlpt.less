@@ -113,6 +113,7 @@ html,body,#page-wrapper{
 
 .connect {
 	text-align: center;
+	padding-bottom: 5%;
 	h3 {
 		border-bottom: 1px solid @nlpt-gold;
 	}
@@ -120,6 +121,7 @@ html,body,#page-wrapper{
 .footer-icons {
 	height: 50px;
 	width: 50px;
+	margin: 0% 3%;
 }
 .footer {
 	min-height: 15% !important;
@@ -130,12 +132,25 @@ html,body,#page-wrapper{
 .footer .schedule th {
 	text-align: center;
 }
-.footer .schedule tbody {
-	font-size: 10px;
+
+@media(min-width:345px){
+	.footer .schedule tbody {
+		font-size: 10px;
+	}
+	.footer .day-header {
+		font-size: 14px;
+	}
 }
-.footer .day-header {
-	font-size: 14px;
+
+@media(max-width:344px){
+	.footer .schedule tbody {
+		font-size: 8px;
+	}
+	.footer .day-header {
+		font-size: 10px;
+	}
 }
+
 
 .footer .table .table {
 	background-color: transparent;

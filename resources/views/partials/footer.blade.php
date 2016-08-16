@@ -15,7 +15,7 @@
 			</div>
 			<div class="col-md-3 connect">
 				<h3>Connect With Us</h3>
-					<div class="contact-blurb">
+					<div class="contact-icons">
 						<a href="https://www.facebook.com/nlpt1/"><img class="footer-icons" src="/images/facebook.png"></a>
 						<a href="https://twitter.com/NLPT1"><img class="footer-icons" src="/images/twitter.png"></a>
 						<a href="https://www.instagram.com/nlpt1/"><img class="footer-icons" src="/images/instagram.png"></a>

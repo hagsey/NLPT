@@ -5,7 +5,7 @@
 		@include('partials/header')
 		<div class="first-section">
 			<div class="container">
-				<div class="row">
+				<div class="row about">
 					<div class="col-md-2">
 						@include('partials/about_sidebar')
 					</div>
@@ -17,7 +17,7 @@
 						</div>
 					</div>
 					<div class="col-md-5">
-						<img class="about-picture" src="/images/program.jpg">
+						<img class="about-picture" src="/images/origins.jpg">
 					</div>
 				</div>
 			</div>

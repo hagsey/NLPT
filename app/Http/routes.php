@@ -35,7 +35,7 @@ Route::get('/programs/nlptyouth', function () {
 	return view('nlptyouth');
 });
 
-Route::get('/programs/nlptrehab', function () {
+Route::get('/nlptrehab', function () {
 	return view('nlptrehab');
 });
 
@@ -55,9 +55,7 @@ Route::get('/about/coaches', function () {
 	return view('coaches');
 });
 
-Route::get('/about/coaches/{id}', function () {
-	return view('hopf');
-});
+Route::get('/about/coaches/{id}', 'Coachcontroller@getCoach');
 
 Route::get('/about/stories', function () {
 	return view('stories');

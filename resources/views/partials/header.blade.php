@@ -24,6 +24,9 @@
 					<a href="/programs">Programs</a>
 				</li>
 				<li>
+					<a href="/nlptrehab">Massage Therapy</a>
+				</li>
+				<li>
 					<a href="/blogs">Blog</a>
 				</li>
 				<li>

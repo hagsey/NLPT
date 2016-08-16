@@ -24,12 +24,13 @@
 	.first-section {
 		min-height: 50% !important;
 		width: 100% !important;
-		.container {
-				margin-top: 15%;
+		padding-top: 100px;
+		.about {
+				margin-top: 5%;
 			}
 
 		.first-content {
-			margin-top: 6%;
+			margin-top: 5%;
 		}
 		.about-text {
 			h1 {
@@ -38,10 +39,6 @@
 			}
 			.about-blurb {
 				padding: 5% 5% 0% 5%;
-				// p {
-				// 	padding-bottom: 5%;
-				// }
-				
 			}
 			
 		}
@@ -52,8 +49,23 @@
 		}
 
 		.about-picture {
-			padding-bottom: 25%;
+			margin-top: 20px;
 			width: 100% !important;
+		}
+
+		//big
+		@media(min-width:769px) {
+			.about-picture {
+				padding-bottom: 25%;
+				
+			}
+		}
+
+		//small
+		@media(max-width:768px) {
+			.about-picture {
+				padding-bottom: 5%;
+			}
 		}
 	}
 	

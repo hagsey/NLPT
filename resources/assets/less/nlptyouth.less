@@ -30,7 +30,7 @@
 		
 
 		.first-content {
-			margin-top: 6%;
+			margin-top: 5%;
 		}
 		.nlptyouth-text {
 			h1 {
@@ -48,19 +48,30 @@
 		}
 
 		.action-btn {
-			margin-top: 20%;
 			padding: 15px 22px;
 		    font-size: 22px;
 		    line-height: 1.3333333;
 		    border-radius: 8px;
+		    margin-bottom: 20px;
 		}
 		
 		.nlptyouth-picture {
-			padding: 5% 0%;
+			padding-bottom: 5%;
 			width: 100% !important;
 		}
-		.started {
-			margin-top: 8%;
+		//big
+		@media(min-width:769px) {
+			.action-btn {
+				margin-top: 35%;
+				
+			}
+		}
+
+		//small
+		@media(max-width:768px) {
+			.action-btn {
+				margin-top: 5%;
+			}
 		}
 	}
 
@@ -73,7 +84,7 @@
 		background-color: @off-white-background;
 
 		.nlptyouth-picture {
-			padding: 5% 0%;
+			margin-top: 20px;
 			width: 100% !important;
 		}
 		
@@ -94,7 +105,7 @@
 			}
 
 			.philosophy-section {
-				padding: 5%;
+				padding: 0% 2%;
 			}
 
 			.first-row {
@@ -102,7 +113,7 @@
 			}
 
 			@media(max-width:991px) {
-				.philosophy-section {
+				.gold-underline {
 					border-bottom: 1px solid @nlpt-gold;
 				}
 			}
@@ -129,7 +140,10 @@
 		}
 
 		.faq {
-			padding-top: 5%;
+			background-color: #eeeeee;
+		    border-radius: 15px;
+		    margin: 2%;
+		    padding: 2%;
 			p {
 				padding-top: 2%;
 			}
