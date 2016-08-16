@@ -54,7 +54,7 @@
 @endsection
 
 @section('script')
-<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDg3bD7eRw7cncTB-6Hyah82TOV0YaqCu4"></script>
 <script type="text/javascript">
 	$(window).ready(function() {
 
