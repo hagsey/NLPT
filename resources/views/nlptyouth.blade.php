@@ -46,7 +46,7 @@
 							</div>
 						</div>
 						<div class="col-md-4 philosophy-section gold-underline">
-							<img class="nlptyouth-picture" src="/images/train.jpg">
+							<img class="nlptyouth-picture" src="/images/philosophy1.jpg">
 						</div>
 						<div class="col-md-4 philosophy-section gold-underline">
 							<h3 class="text-center">Quality first</h3>

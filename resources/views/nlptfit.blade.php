@@ -56,7 +56,7 @@
 							</div>
 						</div>
 						<div class="col-md-5">
-							<img class="nlptfit-picture" src="/images/weights2.jpg">
+							<img class="nlptfit-picture" src="/images/assessment.jpg">
 						</div>
 					</div>
 				</div>
