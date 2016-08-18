@@ -16,7 +16,7 @@
 						</div>
 
 						<div class="text-center">
-							<button type="button" class="btn btn-primary action-btn" v-on:click="showAction=true">Call to Action!</button>
+							<button href="#" type="button" class="btn btn-primary action-btn" v-on:click="showAction=true">Call to Action!</button>
 							<Actioncall :show.sync="showAction" title="NLPTathlete"></Actioncall>
 						</div>
 					</div>

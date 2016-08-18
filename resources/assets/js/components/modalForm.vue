@@ -20,6 +20,7 @@
 		width: 300px;
 		overflow-y: auto;
 		max-height: 100%;
+		height: 100%;
 		margin: 0px auto;
 		padding: 20px 30px 0px;
 		background-color: #fff;

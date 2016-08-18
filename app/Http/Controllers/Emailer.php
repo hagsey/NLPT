@@ -17,9 +17,9 @@ class Emailer extends Controller
     {
     	$system = "NLPT Website";
     	Mail::send('emails.Inquiry', ['data' => $request], function ($m) use ($system) {
-            $m->from('adgekrebs@gmail.com', $system);
+            $m->from('nlptWebmaster@gmail.com', $system);
 
-            $m->to('adgekrebs@gmail.com', 'Inquiry')->subject('New NLPT Inquiry');
+            $m->to('andrewhopf@nlptinc.com', 'Inquiry')->subject('New NLPT Inquiry');
         }); 
 
         return (new Response("Success!",201));
