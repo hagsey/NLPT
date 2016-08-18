@@ -92,28 +92,36 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6 faq">
-						<blockquote>"Are they going to be lifting weights?"</blockquote>
-						<p>Parents that ask this question usually have an image in their mind of either a barbell on their child’s back or a set of heavy dumbbells in their hand. To this image, the answer is no. However, that’s not to say that we won’t apply load to the body. Application of load or stress is what tells the body to grow, so naturally we have to do something to create this response. We prefer to apply this load with the use of bodyweight exercises at this stage in their development. Although we will sometimes use light weights as a tool to help us safely achieve this goal.</p>
+					<div class="col-md-6">
+						<div class="faq">
+							<blockquote>"Are they going to be lifting weights?"</blockquote>
+							<p>Parents that ask this question usually have an image in their mind of either a barbell on their child’s back or a set of heavy dumbbells in their hand. To this image, the answer is no. However, that’s not to say that we won’t apply load to the body. Application of load or stress is what tells the body to grow, so naturally we have to do something to create this response. We prefer to apply this load with the use of bodyweight exercises at this stage in their development. Although we will sometimes use light weights as a tool to help us safely achieve this goal.</p>
+						</div>
 					</div>
-					<div class="col-md-5 faq">
-						<blockquote>"I have a daughter, is there a girls program she can enroll in?"</blockquote>
-						<p>No. We have a lot of female athletes at NLPT and everyone trains together.</p>
+					<div class="col-md-5">
+						<div class="faq">
+							<blockquote>"I have a daughter, is there a girls program she can enroll in?"</blockquote>
+							<p>No. We have a lot of female athletes at NLPT and everyone trains together.</p>
+						</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-4 col-md-offset-2 faq">
-						<blockquote>"Do you do (insert sport of choice here) specific training?"</blockquote>
-						<p>Not at this age. We don’t create specialized training programs for any particular sport at this stage in their development. That is something that comes much later. At this age, we feel that all athletes should be working on their overall athleticism and learning to perform the basics well. However, because most sports have more commonalities than differences, the chances are that their performance will improve as a result of the training. So in that sense, the answer is yes! Any form of training that improves performance is considered sport-specific. It just so happens that the same form of training can improve performance in a multitude of sports.</p>
+					<div class="col-md-4 col-md-offset-2">
+						<div class="faq">
+							<blockquote>"Do you do (insert sport of choice here) specific training?"</blockquote>
+							<p>Not at this age. We don’t create specialized training programs for any particular sport at this stage in their development. That is something that comes much later. At this age, we feel that all athletes should be working on their overall athleticism and learning to perform the basics well. However, because most sports have more commonalities than differences, the chances are that their performance will improve as a result of the training. So in that sense, the answer is yes! Any form of training that improves performance is considered sport-specific. It just so happens that the same form of training can improve performance in a multitude of sports.</p>
+						</div>
 					</div>
 					<div class="col-md-4 col-md-offset-1">
 						<div class=faq>
 							<blockquote>"My kid needs to get faster."</blockquote>
 							<p>Among other things. As described above, there are a lot of athletic qualities we’ll be working on with your son or daughter. Speed will come as a result of them getting stronger (they’ll be able to push harder into the ground), and improving their mechanics (they’ll be more efficient in their movement).</p>
 						</div>
-						<div class="col-md-10 col-md-offset-1 faq">
-							<blockquote>"How often should my kid train?"</blockquote>
-							<p>We have options for 2 or 3 times per week in our program. However, for newer trainees, we have found that great results can be achieved with as little as 2 sessions per week.</p>
+						<div class="col-md-10 col-md-offset-1">
+							<div class="faq">
+								<blockquote>"How often should my kid train?"</blockquote>
+								<p>We have options for 2 or 3 times per week in our program. However, for newer trainees, we have found that great results can be achieved with as little as 2 sessions per week.</p>
+							</div>
 						</div>
 					</div>
 				</div>

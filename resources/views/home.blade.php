@@ -19,17 +19,17 @@
 			</div>
 			<div class="row services">
 				<div class="col-md-4 service-block">
-					<h3><a href="#">Training Programs</a></h3>
+					<h3><a href="/programs">Training Programs</a></h3>
 					<p>For athletes in the Cambridge, Kitchener and Waterloo area, there is no better environment to train in than NLPT. Our intimate, and hard-working atmosphere creates an environment that simply can not be replicated in your typical “gym”.
 						<p>
 						</div>
 						<div class="col-md-4 service-block">
-							<h3><a href="#">Success Stories</a></h3>
+							<h3><a href="/about/stories">Success Stories</a></h3>
 							<p>We’re a gym that prides itself on getting results, whether it’s getting a young athlete to the next level or helping an adult fitness client to adopt a healthier lifestyle. Click here to read a little more about the people we’ve worked with.
 							<p>
 								</div>
 								<div class="col-md-4 service-block">
-									<h3><a href="#">Rehab</a></h3>
+									<h3><a href="nlptrehab">Rehab</a></h3>
 									<p>Our rehab department is headed up by registered massage therapist Michelle Miguel, an experienced clinician who has been a vital part of our success with our athletes and clients. Her massage therapy clinic, which is located at our Cambridge facility is open to non-NLPT clients and members of the general public.
 										<p>
 										</div>
