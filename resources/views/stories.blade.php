@@ -11,13 +11,16 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-2">
+						@include('partials/about_sidebar')
+					</div>
+					<div class="col-md-5">
 						<div class="faq">
 							<blockquote>Scott Stajcer, Connecticut Whale (AHL)</blockquote>
 							<p>It is a fun and exciting atmosphere to workout in. Andrew Hopf and Eric Hagemann really push you to the next level in all aspects of your game, flexibility, strength and quickness. I recommend this training facility to any athlete that is trying to improve their game.</p><p>The best part of my experience here at NLPT is the environment. Everyone in here really helps you to elevate your game. Each athlete that trains here just wants to get better, and you see that, which internally drives you.</p><p> Two of the biggest benefits I received here were understanding how hard to push myself and actually fighting through all the tired weak moments you have to gain strength and speed. Also, Andrew Hopf has helped me tremendously in recovering my hip which I had surgery on this past season. He watches carefully to make sure I am not going to injure my hip further.</p><p>I loved that everyone in here is pushing to get better. No matter how old or big you are you see improvements in everyone you see working out in here. The mental aspect they put you through to motivate you is outstanding and the knowledge of Andrew and Eric really exceeded my expectations on how my body needs to look and feel. The little movements on working on your posture or having your scapulae in the right place really intrigued me because I haven’t seen any other facility focusing on such little things as well as the bigger aspects of strength.</p>
 						</div>
 					</div>
-					<div class="col-md-5">
+					<div class="col-md-4">
 						<div class="faq">
 							<blockquote>Rebecca Haddaway, 19, Laurier Goldenhawks</blockquote>
 							<p>“I’ve got a lot stronger with the puck and in one-on-one battles. The coaches are very professional and encouraging. I love coming, gets be pumped up to be getting stronger and faster.”</p>
