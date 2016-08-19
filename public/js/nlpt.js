@@ -25232,7 +25232,7 @@ module.exports = {
 				Fit: {
 					Monday: ['6-9 am', '12-1 pm', '5-6 pm'],
 					Tuesday: ['6-9 am', '2-3 pm', '5-6 pm'],
-					Wednesday: ['6-9 am', '12-1 pm', '5 pm'],
+					Wednesday: ['6-9 am', '12-1 pm', '5-6 pm'],
 					Thursday: ['6-9 am', '2-3 pm', '5-6 pm'],
 					Friday: ['6-9 am', '12-1 pm', '5-6 pm'],
 					Saturday: ['8-10 am', '--', '--']
